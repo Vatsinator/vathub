@@ -10,6 +10,7 @@ class VatsimTracker {
   public data: VatsimData = {
     connectedClients: 0,
     clients: [],
+    activeAirports: [],
   };
 
   constructor() {
@@ -35,7 +36,10 @@ class VatsimTracker {
         throw err;
       }
 
+      const start = new Date().getTime();
       this.data = parseVatsimData(data.toString());
+      const end = new Date().getTime() - start;
+      console.info('Parsing VATSIM data took %dms', end);
     });
   }
 }
