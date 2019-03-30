@@ -5,6 +5,7 @@ export interface Pilot extends Client {
   heading: number;
   from: string;
   to: string;
+  groundSpeed: number;
 }
 
 export function isPilot(client: Client): client is Pilot {

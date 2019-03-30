@@ -46,6 +46,7 @@ export default function parseClient(clientLine: string): Pilot | Atc {
       heading: parseInt(data[DataIndex.Heading], 10),
       from: data[DataIndex.PlannedDepAirport],
       to: data[DataIndex.PlannedDestairport],
+      groundSpeed: parseInt(data[DataIndex.Groundspeed], 10),
     };
 
     default: throw new Error(`unknown client type: "${clientType}"`);
