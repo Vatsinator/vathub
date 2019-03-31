@@ -1,10 +1,7 @@
+import { Airport, airports, airportTree } from 'airports';
 import { isPointInCircle } from 'geolib';
 import moment from 'moment';
-import airportTree from '../airports/airport-tree';
-import airports from '../airports/airports';
-import { Airport } from '../airports/models/airport';
-import { VatsimData } from './models';
-import { isPilot, Pilot } from './models/pilot';
+import { isPilot, Pilot, VatsimData } from './models';
 import parseClient from './parse-client';
 
 function findPilotAirports(pilot: Pilot): Airport[] {

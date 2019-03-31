@@ -1,5 +1,4 @@
-import { Atc } from './models/atc';
-import { Pilot } from './models/pilot';
+import { Atc, Pilot } from './models';
 
 enum DataIndex {
   Callsign = 0, Pid, RealName, ClientType, Frequency, Latitude, Longitude,
