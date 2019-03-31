@@ -1,17 +1,12 @@
 import fs from 'fs';
 import path from 'path';
+import { VatsimData, VatsimStatus } from './models';
 import parseVatsimData from './parse-vatsim-data';
 import parseVatsimStatus from './parse-vatsim-status';
-import VatsimData from './vatsim-data';
-import VatsimStatus from './vatsim-status';
 
 class VatsimTracker {
-  public status: VatsimStatus = new VatsimStatus([]);
-  public data: VatsimData = {
-    connectedClients: 0,
-    clients: [],
-    activeAirports: [],
-  };
+  public status: VatsimStatus;
+  public data: VatsimData;
 
   constructor() {
     this.readStatus();

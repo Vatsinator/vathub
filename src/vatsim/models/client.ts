@@ -1,6 +1,6 @@
 export type ClientType = 'pilot' | 'atc';
 
-export default interface Client {
+export interface Client {
   callsign: string;
   cid: number;
   name: string;

@@ -13,7 +13,8 @@
     "@types/express": "^4.16.1",
     "express": "^4.16.4",
     "geolib": "^2.0.24",
-    "kd-tree-javascript": "^1.0.3"
+    "kd-tree-javascript": "^1.0.3",
+    "moment": "^2.24.0"
   },
   "devDependencies": {
     "@types/node": "^11.12.0",

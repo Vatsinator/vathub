@@ -10,4 +10,3 @@ export interface Airport {
   lon: number;
   tz: string;
 }
-

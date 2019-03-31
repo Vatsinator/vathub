@@ -1,10 +1,11 @@
 import { isPointInCircle } from 'geolib';
+import moment from 'moment';
 import airportTree from '../airports/airport-tree';
 import airports from '../airports/airports';
 import { Airport } from '../airports/models/airport';
+import { VatsimData } from './models';
 import { isPilot, Pilot } from './models/pilot';
 import parseClient from './parse-client';
-import VatsimData from './vatsim-data';
 
 function findPilotAirports(pilot: Pilot): Airport[] {
   let dep: Airport;
@@ -59,6 +60,22 @@ export default function parseVatsimData(data: string): VatsimData {
       .split(/\r?\n/)
       .filter(line => !line.startsWith(';'));
 
+  const version = lines
+    .map(line => line.match(/^VERSION = (\d+)$/))
+    .find(match => match !== null)[1];
+
+  const reload = lines
+    .map(line => line.match(/^RELOAD = (\d+)$/))
+    .find(match => match !== null)[1];
+
+  const update = lines
+    .map(line => line.match(/^UPDATE = (\d+)$/))
+    .find(match => match !== null)[1];
+
+  const atisAllowMin = lines
+    .map(line => line.match(/^ATIS ALLOW MIN = (\d+)$/))
+    .find(match => match !== null)[1];
+
   const connectedClients = lines
     .map(line => line.match(/^CONNECTED CLIENTS = (\d+)$/))
     .find(match => match !== null)[1];
@@ -75,7 +92,13 @@ export default function parseVatsimData(data: string): VatsimData {
   clients.filter(client => isPilot(client)).forEach((pilot: Pilot) => discoverFlightPhase(pilot));
 
   return {
-    connectedClients: Number(connectedClients),
+    general: {
+      version: parseInt(version, 10),
+      reload: parseInt(reload, 10),
+      update: moment(update, 'YYYYMMDDHHmmss').toDate(),
+      atisAllowMin: parseInt(atisAllowMin, 10),
+      connectedClients: parseInt(connectedClients, 10),
+    },
     clients,
     activeAirports: [...new Set(activeAirports)], // get rid of duplicates
   };
