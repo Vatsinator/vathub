@@ -11,11 +11,8 @@ function findPilotAirports(pilot: Pilot): Airport[] {
     const [ airport, distance ] = match[0];
     const R = 3440.06479191; // nm
     if (distance * R < 2.0) {
-      console.info(`${pilot.callsign} has no flight plan, the nearest airport is ${airport.icao}`);
       dep = airport;
       pilot.from = dep.icao;
-    } else {
-      console.warn(`${pilot.callsign} has no flight plan`);
     }
   } else {
     dep = airportMap[pilot.from];
