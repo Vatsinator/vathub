@@ -1,3 +1,3 @@
-export { default as airports } from './airports';
-export { default as airportTree } from './airport-tree';
+export { airportMap } from './airport-map';
+export { airportTree } from './airport-tree';
 export * from './models';

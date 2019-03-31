@@ -1,6 +1,6 @@
-import { Airport, airports, airportTree } from 'airports';
 import { isPointInCircle } from 'geolib';
 import moment from 'moment';
+import { Airport, airportMap, airportTree } from '../airports';
 import { isPilot, Pilot, VatsimData } from './models';
 import parseClient from './parse-client';
 
@@ -18,10 +18,10 @@ function findPilotAirports(pilot: Pilot): Airport[] {
       console.warn(`${pilot.callsign} has no flight plan`);
     }
   } else {
-    dep = airports[pilot.from];
+    dep = airportMap[pilot.from];
   }
 
-  return [ dep, airports[pilot.to] ];
+  return [ dep, airportMap[pilot.to] ];
 }
 
 function discoverFlightPhase(pilot: Pilot): void {
@@ -31,7 +31,7 @@ function discoverFlightPhase(pilot: Pilot): void {
     // 15716 meters.
     const PilotIsAtAirportRange = 15716;
 
-    const dep = airports[pilot.from];
+    const dep = airportMap[pilot.from];
     if (dep) {
       if (isPointInCircle(pilot.position, { latitude: dep.lat, longitude: dep.lon }, PilotIsAtAirportRange)) {
         pilot.flightPhase = 'departing';
@@ -39,7 +39,7 @@ function discoverFlightPhase(pilot: Pilot): void {
       }
     }
 
-    const dest = airports[pilot.to];
+    const dest = airportMap[pilot.to];
     if (dest) {
       if (isPointInCircle(pilot.position, { latitude: dest.lat, longitude: dest.lon }, PilotIsAtAirportRange)) {
         pilot.flightPhase = 'arrived';
