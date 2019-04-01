@@ -78,10 +78,20 @@ export default function parseVatsimData(data: string): VatsimData {
     .slice(lines.findIndex(line => line === '!CLIENTS:') + 1, lines.findIndex(line => line === '!SERVERS:'))
     .map(line => parseClient(line));
 
-  const activeAirports = clients
+  const activeAirports = [ ...new Set(clients // remove duplicates
     .filter(client => isPilot(client))
     .flatMap((pilot: Pilot) => findPilotAirports(pilot))
-    .filter(airport => !!airport);
+    .filter(airport => !!airport)) ]
+    .map(airport => {
+      const inboundFlights = clients
+        .filter(client => isPilot(client) && client.to === airport.icao)
+        .map(c => c.callsign);
+      const outboundFlights = clients
+        .filter(client => isPilot(client) && client.from === airport.icao)
+        .map(c => c.callsign);
+
+      return { ...airport, inboundFlights, outboundFlights };
+    });
 
   clients.filter(client => isPilot(client)).forEach((pilot: Pilot) => discoverFlightPhase(pilot));
 
@@ -93,7 +103,6 @@ export default function parseVatsimData(data: string): VatsimData {
       atisAllowMin: parseInt(atisAllowMin, 10),
       connectedClients: parseInt(connectedClients, 10),
     },
-    clients,
-    activeAirports: [...new Set(activeAirports)], // get rid of duplicates
+    clients, activeAirports,
   };
 }

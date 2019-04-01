@@ -1,5 +1,4 @@
-import { Airport } from 'airports/models';
-import { Client } from './client';
+import { ActiveAirport, Client } from '.';
 
 /**
  * Parsed & processed vatsim-data.txt file.
@@ -20,5 +19,5 @@ export interface VatsimData {
   /** All parsed clients - pilots and ATCs */
   clients: Client[];
   /** Airports with inbound/outbound flights and ATCs online */
-  activeAirports: Airport[];
+  activeAirports: ActiveAirport[];
 }
