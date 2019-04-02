@@ -14,7 +14,7 @@
     "express": "^4.16.4",
     "geolib": "^2.0.24",
     "kd-tree-javascript": "^1.0.3",
-    "moment": "^2.24.0"
+    "winston": "^3.2.1"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",
