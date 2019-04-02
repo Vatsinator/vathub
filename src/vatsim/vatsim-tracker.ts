@@ -1,5 +1,5 @@
-import fs from 'fs';
-import path from 'path';
+import request from 'request';
+import logger from '../logger';
 import { VatsimData, VatsimStatus } from './models';
 import parseVatsimData from './parse-vatsim-data';
 import parseVatsimStatus from './parse-vatsim-status';
@@ -9,32 +9,37 @@ class VatsimTracker {
   public data: VatsimData;
 
   constructor() {
-    this.readStatus();
-    this.readData();
+    this.fetchStatus();
   }
 
-  private readStatus() {
-    const filePath = path.join(__dirname, 'status.txt');
-    fs.readFile(filePath, (err, data) => {
-      if (err) {
-        throw err;
+  private fetchStatus() {
+    request('https://status.vatsim.net/', (error, response, body) => {
+      if (error) {
+        logger.error(`could not download vatsim status file; error code = ${response.statusCode}`);
+        setTimeout(() => this.fetchStatus(), 5000); // try again in 5 seconds
+        return;
       }
 
-      this.status = parseVatsimStatus(data.toString());
+      this.status = parseVatsimStatus(body);
+      this.fetchData();
     });
   }
 
-  private readData() {
-    const filePath = path.join(__dirname, 'vatsim-data.txt');
-    fs.readFile(filePath, (err, data) => {
-      if (err) {
-        throw err;
+  private fetchData() {
+    const url = this.status.dataUrls[Math.floor(Math.random() * this.status.dataUrls.length)];
+    request(url, (error, response, body) => {
+      if (error) {
+        logger.error(`could not download vatsim data file (${url}); error code = ${response.statusCode}`);
+        setTimeout(() => this.fetchData(), 5000); // try again in 5 seconds
+        return;
       }
 
       const start = new Date().getTime();
-      this.data = parseVatsimData(data.toString());
+      this.data = parseVatsimData(body);
       const end = new Date().getTime() - start;
-      console.info('Parsing VATSIM data took %dms', end);
+      logger.info('Parsing VATSIM data took %dms', end);
+
+      setTimeout(() => this.fetchData(), this.data.general.reload * 60 * 1000);
     });
   }
 }
