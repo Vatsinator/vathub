@@ -55,12 +55,13 @@ describe('parseVatsimData()', () => {
   describe('active airports', () => {
     it('are discovered', () => {
       expect(vatsimData.activeAirports).to.be.an('array');
-      expect(vatsimData.activeAirports.length).to.equal(415);
+      expect(vatsimData.activeAirports.length).to.equal(452);
     });
 
     it('are in fact active', () => {
       vatsimData.activeAirports.forEach(airport => {
-        expect(airport.inboundFlights.length + airport.outboundFlights.length).to.be.greaterThan(0);
+        expect(airport.inboundFlights.length + airport.outboundFlights.length + airport.atcs.length)
+          .to.be.greaterThan(0);
       });
     });
 

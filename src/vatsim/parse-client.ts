@@ -1,3 +1,4 @@
+import logger from '../logger';
 import { Atc, Pilot } from './models';
 
 enum DataIndex {
@@ -24,6 +25,15 @@ function client(data: string[]) {
   };
 }
 
+function facility(callsign: string) {
+  const match = callsign.match(/^.+_([A-Z]+)$/);
+  if (match) {
+    return match[1];
+  } else {
+    return 'OBS';
+  }
+}
+
 export default function parseClient(clientLine: string): Pilot | Atc {
   const data = clientLine.split(':');
   if (data.length !== 42) {
@@ -36,6 +46,8 @@ export default function parseClient(clientLine: string): Pilot | Atc {
       ...client(data),
       type: 'atc',
       frequency: data[DataIndex.Frequency],
+      rating: parseInt(data[DataIndex.Rating], 10),
+      facility: facility(data[DataIndex.Callsign]),
     };
 
     case 'PILOT': return {

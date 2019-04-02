@@ -27,6 +27,7 @@ class VatsimTracker {
 
   private fetchData() {
     const url = this.status.dataUrls[Math.floor(Math.random() * this.status.dataUrls.length)];
+    logger.info(`Downloading ${url}...`);
     request(url, (error, response, body) => {
       if (error) {
         logger.error(`could not download vatsim data file (${url}); error code = ${response.statusCode}`);

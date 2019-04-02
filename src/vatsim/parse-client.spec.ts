@@ -24,6 +24,8 @@ describe('parseClient()', () => {
       expect(atc.name).to.equal('Michael Thomas');
       expect(atc.position).to.deep.equal({ latitude: 33.6367, longitude: -84.42786 });
       expect(atc.frequency).to.equal('127.900');
+      expect(atc.rating).to.equal(5);
+      expect(atc.facility).to.equal('APP');
     });
   });
 
