@@ -1,6 +1,7 @@
 import { isPointInCircle } from 'geolib';
 import moment from 'moment';
 import { Airport, airportMap, airportTree } from '../airports';
+import { findByIcao } from '../airports';
 import { Atc, isAtc, isPilot, Pilot, VatsimData } from './models';
 import parseClient from './parse-client';
 
@@ -25,7 +26,7 @@ function findDepartureAirport(pilot: Pilot): void {
 
 function discoverFlightPhase(pilot: Pilot): void {
   if (pilot.groundSpeed < 50) {
-    const dep = airportMap[pilot.from];
+    const dep = findByIcao(pilot.from);
     if (dep) {
       if (isPointInCircle(pilot.position, { latitude: dep.lat, longitude: dep.lon }, PilotIsAtAirportRange)) {
         pilot.flightPhase = 'departing';
@@ -33,7 +34,7 @@ function discoverFlightPhase(pilot: Pilot): void {
       }
     }
 
-    const dest = airportMap[pilot.to];
+    const dest = findByIcao(pilot.to);
     if (dest) {
       if (isPointInCircle(pilot.position, { latitude: dest.lat, longitude: dest.lon }, PilotIsAtAirportRange)) {
         pilot.flightPhase = 'arrived';
@@ -54,7 +55,7 @@ function discoverAtcPosition(atc: Atc): void {
     case 'TWR':
     case 'DEP':
     case 'APP':
-      if (airportMap[icao]) {
+      if (findByIcao(icao)) {
         atc.airport = icao;
       } else {
         const match = airportTree
