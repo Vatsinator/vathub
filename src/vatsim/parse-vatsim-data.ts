@@ -1,16 +1,10 @@
-import { isPointInCircle } from 'geolib';
 import moment from 'moment';
-import { Airport, airportMap, airportTree } from '../airports';
+import { airportMap, airportTree } from '../airports';
 import { findByIcao } from '../airports';
+import { discoverFlightPhase } from './discover-flight-phase';
 import { Atc, isAtc, isPilot, Pilot, VatsimData } from './models';
 import parseClient from './parse-client';
-
-// Maximum distance for the pilot to be away from an airport reference point to be
-// considered at the airport.
-// The most spacious airport in the world is the King Fahd International Airport; its
-// area is 776 square kilometers, which gives us a circle with range of about
-// 15716 meters.
-const PilotIsAtAirportRange = 15716;
+import { PilotIsInAirportRange } from './pilot-is-in-airport-range';
 
 /** For pilots that have not filled a flight plan yet, try to find out where they are */
 function findDepartureAirport(pilot: Pilot): void {
@@ -18,32 +12,10 @@ function findDepartureAirport(pilot: Pilot): void {
     const match = airportTree.nearest({ lon: pilot.position.longitude, lat: pilot.position.latitude }, 1);
     const [ airport, distance ] = match[0];
     const R = 6371e3; // meters
-    if (distance * R < PilotIsAtAirportRange) {
+    if (distance * R < PilotIsInAirportRange) {
       pilot.from = airport.icao;
     }
   }
-}
-
-function discoverFlightPhase(pilot: Pilot): void {
-  if (pilot.groundSpeed < 50) {
-    const dep = findByIcao(pilot.from);
-    if (dep) {
-      if (isPointInCircle(pilot.position, { latitude: dep.lat, longitude: dep.lon }, PilotIsAtAirportRange)) {
-        pilot.flightPhase = 'departing';
-        return;
-      }
-    }
-
-    const dest = findByIcao(pilot.to);
-    if (dest) {
-      if (isPointInCircle(pilot.position, { latitude: dest.lat, longitude: dest.lon }, PilotIsAtAirportRange)) {
-        pilot.flightPhase = 'arrived';
-        return;
-      }
-    }
-  }
-
-  pilot.flightPhase = 'airborne';
 }
 
 function discoverAtcPosition(atc: Atc): void {
@@ -59,9 +31,8 @@ function discoverAtcPosition(atc: Atc): void {
         atc.airport = icao;
       } else {
         const match = airportTree
-          .nearest({ lon: atc.position.longitude, lat: atc.position.latitude }, 100)
-          .find(([ap]) => !!ap.iata);
-        const [ airport ] = match;
+          .nearest({ lon: atc.position.longitude, lat: atc.position.latitude }, 1);
+        const [ airport ] = match[0];
         atc.airport = airport.icao;
       }
       break;
@@ -102,7 +73,7 @@ export default function parseVatsimData(data: string): VatsimData {
     .filter(client => !isNaN(client.position.latitude) && !isNaN(client.position.longitude));
 
   clients.filter(client => isPilot(client)).forEach((pilot: Pilot) => findDepartureAirport(pilot));
-  clients.filter(client => isPilot(client)).forEach((pilot: Pilot) => discoverFlightPhase(pilot));
+  clients.filter(client => isPilot(client)).forEach((pilot: Pilot) => pilot.flightPhase = discoverFlightPhase(pilot));
   clients.filter(client => isAtc(client)).forEach((atc: Atc) => discoverAtcPosition(atc));
 
   const activeAirports = [ ...new Set(clients // remove duplicates
