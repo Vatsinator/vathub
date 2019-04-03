@@ -1,1 +1,1 @@
-import 'array-flat-polyfill';
+import 'array.prototype.flatmap';
