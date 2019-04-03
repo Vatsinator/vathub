@@ -4,7 +4,7 @@
   "description": "All VATSIM data in one place",
   "main": "dist/index.js",
   "scripts": {
-    "test": "mocha --require ts-node/register src/**/*.spec.ts",
+    "test": "mocha -r ts-node/register -r src/test.ts src/**/*.spec.ts",
     "dev": "ts-node-dev src/index.ts",
     "build": "tsc",
     "start": "forever start ./dist/index.js",
