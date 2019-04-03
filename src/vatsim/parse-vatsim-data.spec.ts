@@ -55,7 +55,7 @@ describe('parseVatsimData()', () => {
   describe('active airports', () => {
     it('are discovered', () => {
       expect(vatsimData.activeAirports).to.be.an('array');
-      expect(vatsimData.activeAirports.length).to.equal(432);
+      expect(vatsimData.activeAirports.length).to.equal(429);
     });
 
     it('are in fact active', () => {
