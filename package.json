@@ -5,12 +5,16 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "mocha --require ts-node/register src/**/*.spec.ts",
-    "dev": "ts-node-dev src/index.ts"
+    "dev": "ts-node-dev src/index.ts",
+    "build": "tsc",
+    "start": "forever start ./dist/index.js",
+    "prod": "npm run build && npm run start"
   },
   "author": "garrappachc@gmail.com",
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "express": "^4.16.4",
+    "forever": "^0.15.4",
     "geolib": "^2.0.24",
     "kd-tree-javascript": "^1.0.3",
     "moment": "^2.24.0",
