@@ -77,13 +77,13 @@ export default function parseVatsimData(data: string): VatsimData {
   clients.filter(client => isAtc(client)).forEach((atc: Atc) => discoverAtcPosition(atc));
 
   const activeAirports = [ ...new Set(clients // remove duplicates
-    .flatMap(client => {
+    .reduce((acc, client) => {
       if (isAtc(client)) {
-        return [ client.airport ];
+        return acc.concat([ client.airport ]);
       } else if (isPilot(client)) {
-        return [ client.from, client.to ];
+        return acc.concat([ client.from, client.to ]);
       }
-    })
+    }, [])
     .filter(icao => !!icao)) ]
     .map(icao => airportMap[icao])
     .filter(airport => !!airport)
