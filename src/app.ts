@@ -1,4 +1,5 @@
 import { json, urlencoded } from 'body-parser';
+import cors from 'cors';
 import express from 'express';
 import { Routes } from './routes';
 
@@ -14,6 +15,7 @@ class App {
 
   private configure() {
     this.app.use(json());
+    this.app.use(cors());
     this.app.use(urlencoded({ extended: false }));
   }
 }
