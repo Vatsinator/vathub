@@ -68,6 +68,7 @@ export default function parseVatsimData(data: string): VatsimData {
   const clients = lines
     .slice(lines.findIndex(line => line === '!CLIENTS:') + 1, lines.findIndex(line => line === '!SERVERS:'))
     .map(line => parseClient(line))
+    .filter(client => !!client)
     // Empty position may sometimes happen, but it appears to happen for clients who just logged into vatsim
     // and is corrected with the very next update
     .filter(client => !isNaN(client.position.latitude) && !isNaN(client.position.longitude));

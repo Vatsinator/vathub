@@ -64,6 +64,7 @@ describe('parseClient()', () => {
   });
 
   it('handles invalid client types', () => {
-    expect(() => parseClient(':::FOO::::::::::::::::::::::::::::::::::::::')).to.throw();
+    const client = parseClient(':::FOO::::::::::::::::::::::::::::::::::::::');
+    expect(client).to.equal(null);
   });
 });

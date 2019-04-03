@@ -60,6 +60,8 @@ export default function parseClient(clientLine: string): Pilot | Atc {
       groundSpeed: parseInt(data[DataIndex.Groundspeed], 10),
     };
 
-    default: throw new Error(`unknown client type: "${clientType}"`);
+    default:
+      logger.warn(`unknown client type: "${clientLine}"`);
+      return null;
   }
 }
