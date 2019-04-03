@@ -2,6 +2,7 @@ import { aliasMap } from './alias-map';
 
 export function getTargets(alias: string): string[] {
   const ret = aliasMap
+    // todo handle named aliases
     .filter(entry => entry.alias.includes(alias))
     .map(entry => entry.target);
 
