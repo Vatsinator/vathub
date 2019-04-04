@@ -1,5 +1,5 @@
 import logger from '../logger';
-import { Atc, Pilot } from './models';
+import { Atc, LatLng, Pilot } from './models';
 
 enum DataIndex {
   Callsign = 0, Pid, RealName, ClientType, Frequency, Latitude, Longitude,
@@ -14,14 +14,20 @@ enum DataIndex {
 }
 
 function client(data: string[]) {
+  const latitude = parseFloat(data[DataIndex.Latitude]);
+  const longitude = parseFloat(data[DataIndex.Longitude]);
+
+  // Empty position may sometimes happen, but it appears to happen for clients who just logged into vatsim
+  // and is corrected with the very next update
+  if (isNaN(latitude) || isNaN(longitude)) {
+    return null;
+  }
+
   return {
     callsign: data[DataIndex.Callsign],
     cid: parseInt(data[DataIndex.Pid], 10),
     name: data[DataIndex.RealName],
-    position: {
-      latitude: parseFloat(data[DataIndex.Latitude]),
-      longitude: parseFloat(data[DataIndex.Longitude]),
-    },
+    position: [ latitude, longitude ] as LatLng,
   };
 }
 
@@ -40,10 +46,15 @@ export default function parseClient(clientLine: string): Pilot | Atc {
     throw new Error(`invalid client: "${clientLine}"`);
   }
 
+  const clientBase = client(data);
+  if (!clientBase) {
+    return null;
+  }
+
   const clientType = data[DataIndex.ClientType];
   switch (clientType) {
     case 'ATC': return {
-      ...client(data),
+      ...clientBase,
       type: 'atc',
       frequency: data[DataIndex.Frequency],
       rating: parseInt(data[DataIndex.Rating], 10),
@@ -51,7 +62,7 @@ export default function parseClient(clientLine: string): Pilot | Atc {
     };
 
     case 'PILOT': return {
-      ...client(data),
+      ...clientBase,
       type: 'pilot',
       aircraft: data[DataIndex.PlannedAircraft],
       heading: parseInt(data[DataIndex.Heading], 10),

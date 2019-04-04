@@ -21,7 +21,7 @@ export function discoverAtcAirspace(atc: Atc): Airspace {
         return { airport: airport.icao };
       } else {
         const match = airportTree
-          .nearest({ lon: atc.position.longitude, lat: atc.position.latitude }, 1);
+          .nearest({ latitude: atc.position[0], longitude: atc.position[1] }, 1);
         const [ nearestAirport ] = match[0];
         return { airport: nearestAirport.icao };
       }

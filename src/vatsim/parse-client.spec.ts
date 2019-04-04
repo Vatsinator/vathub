@@ -22,7 +22,7 @@ describe('parseClient()', () => {
       expect(atc.callsign).to.equal('ATL_APP');
       expect(atc.cid).to.equal(1090147);
       expect(atc.name).to.equal('Michael Thomas');
-      expect(atc.position).to.deep.equal({ latitude: 33.6367, longitude: -84.42786 });
+      expect(atc.position).to.deep.equal([33.6367, -84.42786]);
       expect(atc.frequency).to.equal('127.900');
       expect(atc.rating).to.equal(5);
       expect(atc.facility).to.equal('APP');
@@ -48,7 +48,7 @@ describe('parseClient()', () => {
       expect(pilot.callsign).to.equal('04246');
       expect(pilot.cid).to.equal(904310);
       expect(pilot.name).to.equal('Anton A. Pavlov OMAA');
-      expect(pilot.position).to.deep.equal({ latitude: 60.69702, longitude: 37.71265 });
+      expect(pilot.position).to.deep.equal([60.69702, 37.71265]);
       expect(pilot.aircraft).to.equal('SF34/G');
       expect(pilot.heading).to.equal(85);
       expect(pilot.from).to.equal('ULPB');
@@ -63,8 +63,13 @@ describe('parseClient()', () => {
     expect(() => parseClient('::::::::::::::::::::::::::::::::::::::::')).to.throw();
   });
 
+  it('handles invalid client position', () => {
+    const client = parseClient(':::PILOT::::::::::::::::::::::::::::::::::::::');
+    expect(client).to.equal(null);
+  });
+
   it('handles invalid client types', () => {
-    const client = parseClient(':::FOO::::::::::::::::::::::::::::::::::::::');
+    const client = parseClient(':::FOO::60.69702:37.71265:::::::::::::::::::::::::::::::::::');
     expect(client).to.equal(null);
   });
 });

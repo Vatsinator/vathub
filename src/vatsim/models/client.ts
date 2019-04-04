@@ -1,3 +1,5 @@
+import { LatLng } from './latlng';
+
 export type ClientType = 'pilot' | 'atc';
 
 export interface Client {
@@ -5,5 +7,5 @@ export interface Client {
   cid: number;
   name: string;
   type: ClientType;
-  position: { longitude: number; latitude: number; };
+  position: LatLng;
 }

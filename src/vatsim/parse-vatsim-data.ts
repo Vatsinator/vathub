@@ -9,7 +9,7 @@ import { PilotIsInAirportRange } from './pilot-is-in-airport-range';
 /** For pilots that have not filled a flight plan yet, try to find out where they are */
 function findDepartureAirport(pilot: Pilot): void {
   if (!pilot.from) { // no flight plan
-    const match = airportTree.nearest({ lon: pilot.position.longitude, lat: pilot.position.latitude }, 1);
+    const match = airportTree.nearest({ lat: pilot.position[0], lon: pilot.position[1] }, 1);
     const [ airport, distance ] = match[0];
     const R = 6371e3; // meters
     if (distance * R < PilotIsInAirportRange) {
@@ -47,10 +47,7 @@ export default function parseVatsimData(data: string): VatsimData {
   const clients = lines
     .slice(lines.findIndex(line => line === '!CLIENTS:') + 1, lines.findIndex(line => line === '!SERVERS:'))
     .map(line => parseClient(line))
-    .filter(client => !!client)
-    // Empty position may sometimes happen, but it appears to happen for clients who just logged into vatsim
-    // and is corrected with the very next update
-    .filter(client => !isNaN(client.position.latitude) && !isNaN(client.position.longitude));
+    .filter(client => !!client);
 
   clients.filter(client => isPilot(client)).forEach((pilot: Pilot) => findDepartureAirport(pilot));
   clients.filter(client => isPilot(client)).forEach((pilot: Pilot) => pilot.flightPhase = discoverFlightPhase(pilot));
