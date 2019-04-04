@@ -1,6 +1,6 @@
 import moment from 'moment';
 import { airportMap, airportTree } from '../airports';
-import { findByIcao } from '../airports';
+import { discoverAtcAirspace } from './discover-atc-airspace';
 import { discoverFlightPhase } from './discover-flight-phase';
 import { Atc, isAtc, isPilot, Pilot, VatsimData } from './models';
 import parseClient from './parse-client';
@@ -15,27 +15,6 @@ function findDepartureAirport(pilot: Pilot): void {
     if (distance * R < PilotIsInAirportRange) {
       pilot.from = airport.icao;
     }
-  }
-}
-
-function discoverAtcPosition(atc: Atc): void {
-  const icao = atc.callsign.split('_')[0];
-  switch (atc.facility) {
-    case 'ATIS':
-    case 'DEL':
-    case 'GND':
-    case 'TWR':
-    case 'DEP':
-    case 'APP':
-      if (findByIcao(icao)) {
-        atc.airport = icao;
-      } else {
-        const match = airportTree
-          .nearest({ lon: atc.position.longitude, lat: atc.position.latitude }, 1);
-        const [ airport ] = match[0];
-        atc.airport = airport.icao;
-      }
-      break;
   }
 }
 
@@ -75,7 +54,12 @@ export default function parseVatsimData(data: string): VatsimData {
 
   clients.filter(client => isPilot(client)).forEach((pilot: Pilot) => findDepartureAirport(pilot));
   clients.filter(client => isPilot(client)).forEach((pilot: Pilot) => pilot.flightPhase = discoverFlightPhase(pilot));
-  clients.filter(client => isAtc(client)).forEach((atc: Atc) => discoverAtcPosition(atc));
+  clients
+    .filter(client => isAtc(client))
+    .forEach((atc: Atc) => {
+      const airspace = discoverAtcAirspace(atc);
+      atc = { ...atc, ...airspace };
+    });
 
   const activeAirports = [ ...new Set(clients // remove duplicates
     .reduce((acc, client) => {
@@ -86,7 +70,7 @@ export default function parseVatsimData(data: string): VatsimData {
       }
     }, [])
     .filter(icao => !!icao)) ]
-    .map(icao => airportMap[icao])
+    .map(icao => airportMap.get(icao))
     .filter(airport => !!airport)
     .map(airport => {
       const inboundFlights = clients

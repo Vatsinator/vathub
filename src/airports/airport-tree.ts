@@ -6,4 +6,4 @@ const distance = (a: Airport, b: Airport) => {
   return Math.pow(a.lon - b.lon, 2) + Math.pow(a.lat - b.lat, 2);
 };
 
-export const airportTree = new kdTree.kdTree(Object.values(airportMap), distance, ['lon', 'lat']);
+export const airportTree = new kdTree.kdTree([...airportMap.values()], distance, ['lon', 'lat']);

@@ -1,4 +1,4 @@
-import { Airport } from 'airports';
+import { Airport } from '../../airports';
 
 export interface ActiveAirport extends Airport {
   inboundFlights: string[];

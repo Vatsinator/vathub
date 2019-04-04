@@ -1,4 +1,4 @@
+import airportList from './airports.json';
 import { Airport } from './models';
 
-import raw from './airports.json';
-export const airportMap: { [icao: string]: Airport } = raw;
+export const airportMap: Map<string, Airport> = new Map(Object.entries(airportList));
