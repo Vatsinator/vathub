@@ -4,7 +4,9 @@ export interface Atc extends Client {
   frequency: string;
   rating: number;
   facility: string;
+
   airport?: string;
+  fir?: string;
 }
 
 export function isAtc(client: Client): client is Atc {

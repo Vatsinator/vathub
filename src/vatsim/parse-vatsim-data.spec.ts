@@ -4,7 +4,7 @@ import chaiArrays from 'chai-arrays';
 import chaiDateTime from 'chai-datetime';
 import fs from 'fs';
 import path from 'path';
-import { Pilot, VatsimData } from './models';
+import { Atc, Pilot, VatsimData } from './models';
 import parseVatsimData from './parse-vatsim-data';
 
 before(() => {
@@ -50,12 +50,21 @@ describe('parseVatsimData()', () => {
       expect((kx1000 as Pilot).flightPhase).to.equal('departing');
       expect((kx1000 as Pilot).from).to.equal('KIAD');
     });
+
+    it('atcs have FIRs recognized', () => {
+      const atc = vatsimData.clients.find(c => c.callsign === 'CZQX_1_CTR');
+      // tslint:disable-next-line:no-unused-expression
+      expect(atc).to.not.be.null;
+      expect(atc.type).to.equal('atc');
+      expect(atc).to.have.property('fir');
+      expect((atc as Atc).fir).to.equal('CZQX');
+    });
   });
 
   describe('active airports', () => {
     it('are discovered', () => {
       expect(vatsimData.activeAirports).to.be.an('array');
-      expect(vatsimData.activeAirports.length).to.equal(418);
+      expect(vatsimData.activeAirports.length).to.equal(430);
     });
 
     it('are in fact active', () => {

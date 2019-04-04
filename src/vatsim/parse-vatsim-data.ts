@@ -58,7 +58,7 @@ export default function parseVatsimData(data: string): VatsimData {
     .filter(client => isAtc(client))
     .forEach((atc: Atc) => {
       const airspace = discoverAtcAirspace(atc);
-      atc = { ...atc, ...airspace };
+      Object.assign(atc, airspace);
     });
 
   const activeAirports = [ ...new Set(clients // remove duplicates

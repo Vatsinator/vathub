@@ -1,8 +1,10 @@
 import { airportTree, findAirportByIcao } from '../airports';
+import { findFirByIcao } from '../firs';
 import { Atc } from './models';
 
 interface Airspace {
   airport?: string;
+  fir?: string;
 }
 
 export function discoverAtcAirspace(atc: Atc): Airspace {
@@ -22,6 +24,13 @@ export function discoverAtcAirspace(atc: Atc): Airspace {
           .nearest({ lon: atc.position.longitude, lat: atc.position.latitude }, 1);
         const [ nearestAirport ] = match[0];
         return { airport: nearestAirport.icao };
+      }
+
+    case 'CTR':
+    case 'FSS':
+      const fir = findFirByIcao(icao);
+      if (fir) {
+        return { fir: fir.icao };
       }
   }
 
