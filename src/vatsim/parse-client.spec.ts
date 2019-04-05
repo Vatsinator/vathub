@@ -58,9 +58,9 @@ describe('parseClient()', () => {
   });
 
   it('handles malformed lines', () => {
-    expect(() => parseClient('')).to.throw();
-    expect(() => parseClient('::::::::::::::::::::::::::::::::::::::::::')).to.throw();
-    expect(() => parseClient('::::::::::::::::::::::::::::::::::::::::')).to.throw();
+    expect(parseClient('')).to.equal(null);
+    expect(parseClient('::::::::::::::::::::::::::::::::::::::::::')).to.equal(null);
+    expect(parseClient('::::::::::::::::::::::::::::::::::::::::')).to.equal(null);
   });
 
   it('handles invalid client position', () => {

@@ -43,7 +43,8 @@ function facility(callsign: string) {
 export default function parseClient(clientLine: string): Pilot | Atc {
   const data = clientLine.split(':');
   if (data.length !== 42) {
-    throw new Error(`invalid client: "${clientLine}"`);
+    logger.warn(`invalid client: "${clientLine}"`);
+    return null;
   }
 
   const clientBase = client(data);
