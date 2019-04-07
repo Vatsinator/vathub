@@ -1,5 +1,5 @@
 import moment from 'moment';
-import { airportMap, airportTree } from '../airports';
+import { airportList, airportTree, findAirportByIcao } from '../airports';
 import { discoverAtcAirspace } from './discover-atc-airspace';
 import { discoverFlightPhase } from './discover-flight-phase';
 import { Atc, isAtc, isPilot, Pilot, VatsimData } from './models';
@@ -67,7 +67,7 @@ export default function parseVatsimData(data: string): VatsimData {
       }
     }, [])
     .filter(icao => !!icao)) ]
-    .map(icao => airportMap.get(icao))
+    .map(icao => findAirportByIcao(icao))
     .filter(airport => !!airport)
     .map(airport => {
       const inboundFlights = clients

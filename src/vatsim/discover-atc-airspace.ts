@@ -1,5 +1,6 @@
-import { airportTree, findAirportByIcao } from '../airports';
-import { findFirByIcao } from '../firs';
+import { airportTree, findAirportByCallsign } from '../airports';
+import { findFirByCallsign } from '../firs';
+import logger from '../logger';
 import { Atc } from './models';
 
 interface Airspace {
@@ -8,7 +9,6 @@ interface Airspace {
 }
 
 export function discoverAtcAirspace(atc: Atc): Airspace {
-  const icao = atc.callsign.split('_')[0];
   switch (atc.facility) {
     case 'ATIS':
     case 'DEL':
@@ -16,21 +16,23 @@ export function discoverAtcAirspace(atc: Atc): Airspace {
     case 'TWR':
     case 'DEP':
     case 'APP':
-      const airport = findAirportByIcao(icao);
+      const airport = findAirportByCallsign(atc.callsign);
       if (airport) {
         return { airport: airport.icao };
       } else {
         const match = airportTree
-          .nearest({ latitude: atc.position[0], longitude: atc.position[1] }, 1);
+          .nearest({ lat: atc.position[0], lon: atc.position[1] }, 1);
         const [ nearestAirport ] = match[0];
         return { airport: nearestAirport.icao };
       }
 
     case 'CTR':
     case 'FSS':
-      const fir = findFirByIcao(icao);
+      const fir = findFirByCallsign(atc.callsign);
       if (fir) {
         return { fir: fir.icao };
+      } else {
+        logger.warn(`Unrecognized ATC: ${atc.callsign}`);
       }
   }
 

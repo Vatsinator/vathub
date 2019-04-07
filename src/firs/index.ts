@@ -1,2 +1,2 @@
-export { findByIcao as findFirByIcao } from './find-by-icao';
+export { findByCallsign as findFirByCallsign } from './find-by-callsign';
 export { routes } from './routes';

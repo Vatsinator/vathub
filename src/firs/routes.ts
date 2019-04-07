@@ -1,18 +1,19 @@
 import { Router } from 'express';
-import { firMap } from './fir-map';
+import { firList } from './fir-list';
 
 const router = Router();
 
 router
   .route('/')
-  .get((req, res) => res.status(200).send([...firMap.values()]));
+  .get((req, res) => res.status(200).send(firList));
 
 router
   .route('/:firIcao')
   .get((req, res) => {
     const icao = req.params.firIcao;
-    if (firMap.has(icao)) {
-      res.status(200).send(firMap.get(icao));
+    const fir = firList.find(f => f.icao === icao);
+    if (fir) {
+      res.status(200).send(fir);
     } else {
       res.status(404).send({ message: `FIR ${icao} doesn\'t exist` });
     }

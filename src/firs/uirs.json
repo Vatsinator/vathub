@@ -1,0 +1,501 @@
+[
+  {
+    "icao": "ADR_E",
+    "name": "Adria Radar",
+    "firs": [
+      "LYBA",
+      "LWSS",
+      "LAAA"
+    ]
+  },
+  {
+    "icao": "ADR_W",
+    "name": "Adria Radar",
+    "firs": [
+      "LJLA",
+      "LDZO",
+      "LQSB"
+    ]
+  },
+  {
+    "icao": "ADR",
+    "name": "Adria Radar",
+    "firs": [
+      "LJLA",
+      "LDZO",
+      "LQSB",
+      "LYBA",
+      "LWSS",
+      "LAAA"
+    ]
+  },
+  {
+    "icao": "AFRN_H",
+    "name": "Africa North Control",
+    "firs": [
+      "HAAA",
+      "HCSM",
+      "HHAA",
+      "HSSS"
+    ]
+  },
+  {
+    "icao": "AFRN_M",
+    "name": "Africa North Control",
+    "firs": [
+      "DAAA",
+      "DTTC",
+      "GMMM",
+      "HLLL"
+    ]
+  },
+  {
+    "icao": "AFRN_W",
+    "name": "Africa North Control",
+    "firs": [
+      "DGAC",
+      "DNKK",
+      "DRRR",
+      "FCCC",
+      "FTTT",
+      "FZZA",
+      "GLRB",
+      "GOOO"
+    ]
+  },
+  {
+    "icao": "AFRN",
+    "name": "Africa North Control",
+    "firs": [
+      "DAAA",
+      "DGAC",
+      "DNKK",
+      "DRRR",
+      "DTTC",
+      "FCCC",
+      "FTTT",
+      "FZZA",
+      "GLRB",
+      "GMMM",
+      "GOOO",
+      "GVSC",
+      "HAAA",
+      "HCSM",
+      "HHAA",
+      "HLLL",
+      "HSSS"
+    ]
+  },
+  {
+    "icao": "AFRS",
+    "name": "Africa South Control",
+    "firs": [
+      "FACA",
+      "FAJA",
+      "FBGR",
+      "FIMM",
+      "FLFI",
+      "FMMM",
+      "FNAN",
+      "FQBE",
+      "FVHF",
+      "FWLL",
+      "FYWH",
+      "HKNA",
+      "HTDC",
+      "HUEC"
+    ]
+  },
+  {
+    "icao": "ASEA_N",
+    "name": "South East Asia Control",
+    "firs": [
+      "RPHI",
+      "VVTS",
+      "VTBB",
+      "VVVV",
+      "VLVT",
+      "VDPP"
+    ]
+  },
+  {
+    "icao": "ASEA_S",
+    "name": "South East Asia Control",
+    "firs": [
+      "WSJC",
+      "WMFC",
+      "WBFC",
+      "WIIF",
+      "WAAF"
+    ]
+  },
+  {
+    "icao": "ASEA",
+    "name": "South East Asia Control",
+    "firs": [
+      "WSJC",
+      "WMFC",
+      "WBFC",
+      "WIIF",
+      "WAAF",
+      "RPHI",
+      "VVTS",
+      "VDPP",
+      "VTBB",
+      "VVVV",
+      "VLVT",
+      "VYYF"
+    ]
+  },
+  {
+    "icao": "ASIA",
+    "name": "West Asia Control",
+    "firs": [
+      "VABF",
+      "VIDF",
+      "VECF",
+      "VOMF",
+      "VEGF",
+      "OPKR",
+      "OPLR",
+      "OAKX",
+      "VCCF",
+      "VRMF",
+      "VGFR",
+      "VNSM"
+    ]
+  },
+  {
+    "icao": "BALT",
+    "name": "Baltic Control",
+    "firs": [
+      "UMKK",
+      "EYVL",
+      "EVRR",
+      "EETT"
+    ]
+  },
+  {
+    "icao": "BICC",
+    "name": "Iceland Radio",
+    "firs": [
+      "BIRD-E",
+      "BIRD-N",
+      "BIRD-S",
+      "BIRD-W"
+    ]
+  },
+  {
+    "icao": "CR-RDO",
+    "name": "Caribbean Radio",
+    "firs": [
+      "MYNN",
+      "MUFH",
+      "MKJK",
+      "MTEG",
+      "MDCS",
+      "TNCF",
+      "TJZS",
+      "TTZP",
+      "KZMO"
+    ]
+  },
+  {
+    "icao": "EDUU",
+    "name": "Rhein Radar",
+    "firs": [
+      "EDGG-E",
+      "EDGG-S",
+      "EDGG-W",
+      "EDMM-N",
+      "EDMM-S",
+      "EDWW-E"
+    ]
+  },
+  {
+    "icao": "EDYY",
+    "name": "Maastricht Radar",
+    "firs": [
+      "EBBU",
+      "EHAA",
+      "EDGG-N",
+      "EDWW-W"
+    ]
+  },
+  {
+    "icao": "EURN",
+    "name": "Eurocontrol North",
+    "firs": [
+      "EKDK",
+      "EETT",
+      "EFES",
+      "EVRR",
+      "EYVL",
+      "ENBD",
+      "ENOS",
+      "ENSV",
+      "ESOS"
+    ]
+  },
+  {
+    "icao": "EURM",
+    "name": "Maastricht Eurocontrol",
+    "firs": [
+      "LOVV",
+      "EBBU",
+      "EDGG",
+      "EDMM",
+      "EDWW",
+      "LSAS",
+      "EHAA"
+    ]
+  },
+  {
+    "icao": "EURW",
+    "name": "Eurocontrol West",
+    "firs": [
+      "LFBB",
+      "LFEE",
+      "LFMM",
+      "LFRR",
+      "LFFF",
+      "LPPC",
+      "LECM",
+      "LECB",
+      "LECS"
+    ]
+  },
+  {
+    "icao": "EURE",
+    "name": "Eurocontrol East",
+    "firs": [
+      "LAAA",
+      "LQSB",
+      "LBSR",
+      "LDZO",
+      "LKAA",
+      "LWSS",
+      "LHCC",
+      "LUUU",
+      "EPWW",
+      "LRBB",
+      "LYBA",
+      "LZBB",
+      "LJLA"
+    ]
+  },
+  {
+    "icao": "EURS",
+    "name": "Eurocontrol South",
+    "firs": [
+      "LCCC",
+      "LGGG",
+      "LIMM",
+      "LIPP",
+      "LIRR",
+      "LIBB",
+      "LMMM",
+      "LTAA",
+      "LTBB"
+    ]
+  },
+  {
+    "icao": "EURI",
+    "name": "Eurocontrol Islands",
+    "firs": [
+      "EISN",
+      "EGTT",
+      "EGPX",
+      "BIRD-E",
+      "BIRD-S"
+    ]
+  },
+  {
+    "icao": "FASA",
+    "name": "South Africa Center",
+    "firs": [
+      "FAJA",
+      "FASA"
+    ]
+  },
+  {
+    "icao": "GULF",
+    "name": "Gulf Area",
+    "firs": [
+      "OIIX",
+      "ORBB",
+      "OSTT",
+      "OEJD",
+      "OKAC",
+      "OBBB",
+      "OMAE",
+      "OYSC",
+      "OOMM",
+      "OJAC",
+      "OLBB",
+      "HECC"
+    ]
+  },
+  {
+    "icao": "LFUP",
+    "name": "France Control",
+    "firs": [
+      "LFMM",
+      "LFFF",
+      "LFEE",
+      "LFBB",
+      "LFRR"
+    ]
+  },
+  {
+    "icao": "LIUP",
+    "name": "Italy Radar",
+    "firs": [
+      "LIMM",
+      "LIBB",
+      "LIRR",
+      "LIPP"
+    ]
+  },
+  {
+    "icao": "LRUB",
+    "name": "Black Sea West Control",
+    "firs": [
+      "LBSR",
+      "LRBB",
+      "LUUU"
+    ]
+  },
+  {
+    "icao": "LTUP",
+    "name": "Turkey Control",
+    "firs": [
+      "LTAA"
+    ]
+  },
+  {
+    "icao": "RU-ERC",
+    "name": "Eastern Russia Control",
+    "firs": [
+      "UEEE",
+      "UHHH",
+      "UHMM",
+      "UHPP"
+    ]
+  },
+  {
+    "icao": "RU-WRC",
+    "name": "Western Russia Control",
+    "firs": [
+      "UMMV",
+      "UUWV",
+      "URRV",
+      "UWWW"
+    ]
+  },
+  {
+    "icao": "RU-ESC",
+    "name": "Eastern Siberia Control",
+    "firs": [
+      "UNKL",
+      "UIII"
+    ]
+  },
+  {
+    "icao": "RU-WSC",
+    "name": "Western Siberia Control",
+    "firs": [
+      "USDK",
+      "USDD",
+      "USDS",
+      "USTR",
+      "USSS",
+      "USKK",
+      "USPP",
+      "USCC",
+      "UNNT"
+    ]
+  },
+  {
+    "icao": "RU-CEN",
+    "name": "Central Asia Control",
+    "firs": [
+      "UATT",
+      "UACC",
+      "UAAA",
+      "UTAK",
+      "UTAA",
+      "UTAT",
+      "UTNR",
+      "UTAV",
+      "UTSD",
+      "UTTR",
+      "UAII",
+      "UCFO",
+      "UTDD",
+      "UCFM"
+    ]
+  },
+  {
+    "icao": "RU-NWC",
+    "name": "North West Control",
+    "firs": [
+      "ULLL",
+      "ULWW",
+      "ULMM",
+      "ULAA",
+      "ULAM",
+      "ULKK",
+      "UMKK",
+      "UUYY"
+    ]
+  },
+  {
+    "icao": "UKR",
+    "name": "Ukraine Control",
+    "firs": [
+      "UKDV",
+      "UKFV",
+      "UKOV",
+      "UKBV",
+      "UKLV"
+    ]
+  },
+  {
+    "icao": "VZUP",
+    "name": "India Radar",
+    "firs": [
+      "VABF",
+      "VEGF",
+      "VECF",
+      "VIDF",
+      "VOMF"
+    ]
+  },
+  {
+    "icao": "YMMM",
+    "name": "Melbourne Centre Upper",
+    "firs": [
+      "YWOL",
+      "YBKE",
+      "YSNO",
+      "YTBD",
+      "YTAS",
+      "YORE",
+      "YESP",
+      "YASP"
+    ]
+  },
+  {
+    "icao": "YBBB",
+    "name": "Brisbane Centre Upper",
+    "firs": [
+      "YMDE",
+      "YDOS",
+      "YARA",
+      "YTRT",
+      "YTBP",
+      "YISA"
+    ]
+  }
+]

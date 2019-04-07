@@ -9,7 +9,7 @@ export function discoverFlightPhase(pilot: Pilot): FlightPhase {
     if (dep) {
       if (isPointInCircle(
         { latitude: pilot.position[0], longitude: pilot.position[1] },
-        { latitude: dep.lat, longitude: dep.lon }, PilotIsInAirportRange)) {
+        { latitude: dep.position[0], longitude: dep.position[1] }, PilotIsInAirportRange)) {
         return 'departing';
       }
     }
@@ -18,7 +18,7 @@ export function discoverFlightPhase(pilot: Pilot): FlightPhase {
     if (dest) {
       if (isPointInCircle(
         { latitude: pilot.position[0], longitude: pilot.position[1] },
-        { latitude: dest.lat, longitude: dest.lon }, PilotIsInAirportRange)) {
+        { latitude: dest.position[0], longitude: dest.position[1] }, PilotIsInAirportRange)) {
         return 'arrived';
       }
     }
