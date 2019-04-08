@@ -1,34 +1,10 @@
 [
   {
-    "icao": "ADR",
-    "name": "Adria Radar",
-    "prefix": [],
-    "alias": [],
-    "boundaries": []
-  },
-  {
-    "icao": "ADR-W",
-    "name": "Adria Radar (West)",
-    "prefix": [
-      "ADR_W"
-    ],
-    "alias": [],
-    "boundaries": []
-  },
-  {
-    "icao": "ADR-E",
-    "name": "Adria Radar (East)",
-    "prefix": [
-      "ADR_E"
-    ],
-    "alias": [],
-    "boundaries": []
-  },
-  {
     "icao": "AGGG",
     "name": "Honiara",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -85,8 +61,7 @@
     "labelPosition": [
       -9.416667,
       160.9375
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ANAU",
@@ -96,6 +71,7 @@
       "INU"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -132,14 +108,14 @@
     "labelPosition": [
       -4.15,
       165
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "AYPM",
     "name": "Port Moresby",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -244,8 +220,7 @@
     "labelPosition": [
       -6,
       150.424879
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "BGGL",
@@ -255,6 +230,7 @@
       "GREN"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -335,14 +311,14 @@
     "labelPosition": [
       75.5,
       -30
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "BIRD",
     "name": "Reykjavik",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -403,8 +379,7 @@
     "labelPosition": [
       64.6,
       -30
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "BIRD-E",
@@ -413,6 +388,7 @@
       "BIRD_E"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -453,8 +429,7 @@
     "labelPosition": [
       64.6,
       -7
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "BIRD-N",
@@ -463,6 +438,7 @@
       "BIRD_N"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -527,8 +503,7 @@
     "labelPosition": [
       75.5,
       -45.8
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "BIRD-S",
@@ -537,6 +512,7 @@
       "BIRD_S"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -569,8 +545,7 @@
     "labelPosition": [
       64.6,
       -20
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "BIRD-W",
@@ -579,6 +554,7 @@
       "BIRD_W"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -611,8 +587,7 @@
     "labelPosition": [
       66,
       -45.8
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "CZEG",
@@ -622,6 +597,7 @@
       "ZEG"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -730,8 +706,7 @@
     "labelPosition": [
       69.499861,
       -99.376111
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "CZQM",
@@ -740,6 +715,7 @@
       "MCN"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -1022,8 +998,7 @@
     "labelPosition": [
       45.183334,
       -62.366685
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "CZQX",
@@ -1034,61 +1009,8 @@
       "GAN"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
-      [
-        [
-          45,
-          -30
-        ],
-        [
-          45,
-          -51
-        ],
-        [
-          49,
-          -51
-        ],
-        [
-          53,
-          -54
-        ],
-        [
-          57,
-          -59
-        ],
-        [
-          58.471111,
-          -60.351111
-        ],
-        [
-          61,
-          -63
-        ],
-        [
-          64,
-          -63
-        ],
-        [
-          65,
-          -60
-        ],
-        [
-          65,
-          -57.75
-        ],
-        [
-          63.5,
-          -55.666667
-        ],
-        [
-          63.5,
-          -39
-        ],
-        [
-          61,
-          -30
-        ]
-      ],
       [
         [
           48.5,
@@ -1364,48 +1286,13 @@
           48.5,
           -62
         ]
-      ],
-      [
-        [
-          61,
-          -30
-        ],
-        [
-          61,
-          -10
-        ],
-        [
-          57,
-          -10
-        ],
-        [
-          57,
-          -15
-        ],
-        [
-          49,
-          -15
-        ],
-        [
-          48.493611,
-          -8
-        ],
-        [
-          45,
-          -8
-        ],
-        [
-          45,
-          -30
-        ]
       ]
     ],
     "country": "Canada",
     "labelPosition": [
-      55,
-      -46.5
-    ],
-    "oceanic": true
+      48.78,
+      -56.166667
+    ]
   },
   {
     "icao": "CZUL",
@@ -1414,6 +1301,7 @@
       "MTL"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -1794,8 +1682,7 @@
     "labelPosition": [
       54.610695,
       -68.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "CZVR",
@@ -1806,6 +1693,7 @@
       "ZVR"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -1910,8 +1798,7 @@
     "labelPosition": [
       52.6125,
       -125.56875
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "CZWG",
@@ -1921,6 +1808,7 @@
       "ZWG"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -1985,8 +1873,7 @@
     "labelPosition": [
       56.091111,
       -95.000695
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "CZYZ",
@@ -1995,6 +1882,7 @@
       "TOR"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -2243,14 +2131,14 @@
     "labelPosition": [
       47.575,
       -81.591805
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "DAAA",
     "name": "Algiers",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -2703,14 +2591,14 @@
     "labelPosition": [
       28.975,
       1.666666
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "DGAC",
     "name": "Accra",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -2963,14 +2851,14 @@
     "labelPosition": [
       0.733333,
       1.666666
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "DIII",
     "name": "Abidjan",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -3083,14 +2971,14 @@
     "labelPosition": [
       4.3,
       -5.2
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "DNKK",
     "name": "Kano",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -3911,14 +3799,14 @@
     "labelPosition": [
       8.442681,
       8.66818
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "DRRR",
     "name": "Niamey",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -4335,14 +4223,14 @@
     "labelPosition": [
       17.016667,
       3.25
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "DTTC",
     "name": "Tunis",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -4547,14 +4435,14 @@
     "labelPosition": [
       34.615961,
       9.508024
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EBBU",
     "name": "Brussels",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -5451,23 +5339,14 @@
     "labelPosition": [
       50.476388,
       4.258334
-    ],
-    "oceanic": false
-  },
-  {
-    "icao": "EBUR",
-    "name": "Brussels Upper",
-    "prefix": [],
-    "alias": [
-      "EBBU"
-    ],
-    "boundaries": []
+    ]
   },
   {
     "icao": "EDGG",
     "name": "Langen",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -6372,8 +6251,7 @@
     "labelPosition": [
       50.28,
       8.25
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EDGG-E",
@@ -6389,6 +6267,7 @@
       "EDGG_Z"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -6485,8 +6364,7 @@
     "labelPosition": [
       50.6,
       9.4
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EDGG-N",
@@ -6497,6 +6375,7 @@
       "EDGG_P"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -6689,8 +6568,7 @@
     "labelPosition": [
       51.5,
       7.4
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EDGG-S",
@@ -6699,6 +6577,7 @@
       "EDGG_S"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -6847,8 +6726,7 @@
     "labelPosition": [
       48.7,
       9
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EDGG-W",
@@ -6857,6 +6735,7 @@
       "EDGG_W"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -6989,8 +6868,7 @@
     "labelPosition": [
       49.8,
       7.3
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EDGG-SE",
@@ -6999,6 +6877,7 @@
       "EDGG_SE"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -7195,8 +7074,7 @@
     "labelPosition": [
       49.76,
       9.47
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EDGG-NW",
@@ -7205,6 +7083,7 @@
       "EDGG_NW"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -8009,8 +7888,7 @@
     "labelPosition": [
       50.61,
       7.19
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EDMM",
@@ -8023,6 +7901,7 @@
       "EDMM_R"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -8219,8 +8098,7 @@
     "labelPosition": [
       49.711666,
       11.786666
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EDMM-N",
@@ -8231,6 +8109,7 @@
       "EDMM_T"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -8351,8 +8230,7 @@
     "labelPosition": [
       50.92,
       12.63
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EDMM-S",
@@ -8361,6 +8239,7 @@
       "EDMM_S"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -8473,14 +8352,14 @@
     "labelPosition": [
       48.36,
       10.85
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EDWW",
     "name": "Bremen",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -8917,8 +8796,7 @@
     "labelPosition": [
       52.9,
       10.8
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EDWW-E",
@@ -8930,6 +8808,7 @@
       "EDWW_M"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -9074,8 +8953,7 @@
     "labelPosition": [
       53.3,
       12.79
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EDWW-W",
@@ -9087,6 +8965,7 @@
       "EDWW_S"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -9415,14 +9294,14 @@
     "labelPosition": [
       52.98,
       8.48
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EETT",
     "name": "Tallinn",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -9663,14 +9542,14 @@
     "labelPosition": [
       58.709167,
       24.438055
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EFES",
     "name": "Tampere",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -10039,8 +9918,7 @@
     "labelPosition": [
       63.733333,
       27
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EGGX",
@@ -10058,6 +9936,7 @@
       "SNWICK"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -10152,60 +10031,7 @@
     "labelPosition": [
       55,
       -46.5
-    ],
-    "oceanic": false
-  },
-  {
-    "icao": "EGG1",
-    "name": "Shanwick",
-    "prefix": [
-      "SC"
-    ],
-    "alias": [
-      "EGGX"
-    ],
-    "boundaries": []
-  },
-  {
-    "icao": "EGG2",
-    "name": "Shanwick Clearance Delivery",
-    "prefix": [
-      "SC-D"
-    ],
-    "alias": [
-      "EGGX"
-    ],
-    "boundaries": []
-  },
-  {
-    "icao": "EGG3",
-    "name": "Shanwick Oceanic Routing Clearance Authority",
-    "prefix": [
-      "S-ORCA",
-      "SORCA"
-    ],
-    "alias": [
-      "EGGX"
-    ],
-    "boundaries": []
-  },
-  {
-    "icao": "EGG4",
-    "name": "Shanwick Oceanic Clearance Delivery",
-    "prefix": [
-      "EGGX-D",
-      "EGX-D",
-      "EG-D",
-      "GX-D",
-      "SH-D",
-      "SR-D",
-      "SHW-D",
-      "SHAN-D"
-    ],
-    "alias": [
-      "EGGX"
-    ],
-    "boundaries": []
+    ]
   },
   {
     "icao": "EGPX",
@@ -10214,6 +10040,7 @@
       "SCO"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -10362,8 +10189,7 @@
     "labelPosition": [
       57.458333,
       -2.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EGPX-E",
@@ -10372,6 +10198,7 @@
       "SCO_E"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -10484,8 +10311,7 @@
     "labelPosition": [
       57,
       0
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EGPX-WD",
@@ -10499,6 +10325,7 @@
       "STC_A"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -10623,8 +10450,7 @@
     "labelPosition": [
       56.6,
       -8
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EGTT",
@@ -10633,6 +10459,7 @@
       "LON"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -10833,8 +10660,7 @@
     "labelPosition": [
       51.916667,
       -1.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EGTT-C",
@@ -10846,6 +10672,7 @@
       "LTC_NW"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -10942,8 +10769,7 @@
     "labelPosition": [
       52.65,
       -1.2
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EGTT-N",
@@ -10954,6 +10780,7 @@
       "MAN_E"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -11094,8 +10921,7 @@
     "labelPosition": [
       53.2,
       0
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EGTT-S",
@@ -11108,6 +10934,7 @@
       "LTC_SW"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -11240,8 +11067,7 @@
     "labelPosition": [
       50.6,
       -1.2
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EGTT-SC",
@@ -11251,6 +11077,7 @@
       "LTC"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -11435,8 +11262,7 @@
     "labelPosition": [
       51.5,
       1
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EGTT-W",
@@ -11445,6 +11271,7 @@
       "LON_W"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -11565,84 +11392,14 @@
     "labelPosition": [
       51,
       -5
-    ],
-    "oceanic": false
-  },
-  {
-    "icao": "EGVV",
-    "name": "Swanwick Military",
-    "prefix": [
-      "LMLL",
-      "SWML",
-      "SWMIL",
-      "SWAN"
-    ],
-    "alias": [
-      "EGTT"
-    ],
-    "boundaries": []
-  },
-  {
-    "icao": "EGWD",
-    "name": "London Military",
-    "prefix": [
-      "LMIL"
-    ],
-    "alias": [
-      "EGTT"
-    ],
-    "boundaries": []
-  },
-  {
-    "icao": "EGUJ",
-    "name": "Neatishead Air Defence",
-    "prefix": [
-      "NEAT"
-    ],
-    "alias": [
-      "EGTT"
-    ],
-    "boundaries": []
-  },
-  {
-    "icao": "EGQN",
-    "name": "Buchan Air Defence",
-    "prefix": [
-      "BUCH",
-      "BUAD"
-    ],
-    "alias": [
-      "EGPX"
-    ],
-    "boundaries": []
-  },
-  {
-    "icao": "EGQQ",
-    "name": "Scottish Military",
-    "prefix": [
-      "SMIL"
-    ],
-    "alias": [
-      "EGPX"
-    ],
-    "boundaries": []
-  },
-  {
-    "icao": "EGOM",
-    "name": "Spadeadam Range",
-    "prefix": [
-      "SPAD"
-    ],
-    "alias": [
-      "EGTT"
-    ],
-    "boundaries": []
+    ]
   },
   {
     "icao": "EHAA",
     "name": "Amsterdam",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -13163,26 +12920,7 @@
     "labelPosition": [
       52.878335,
       4.609032
-    ],
-    "oceanic": false
-  },
-  {
-    "icao": "EHMC",
-    "name": "Dutch Mil (Military)",
-    "prefix": [],
-    "alias": [
-      "EHAA"
-    ],
-    "boundaries": []
-  },
-  {
-    "icao": "EHML",
-    "name": "Bandbox CRC (Military)",
-    "prefix": [],
-    "alias": [
-      "EHAA"
-    ],
-    "boundaries": []
+    ]
   },
   {
     "icao": "EIDW",
@@ -13191,6 +12929,7 @@
       "DUB"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -13223,14 +12962,14 @@
     "labelPosition": [
       53.4,
       -6.9
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EISN",
     "name": "Shannon",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -13291,14 +13030,14 @@
     "labelPosition": [
       53,
       -11
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EKDK",
     "name": "Kobenhavn",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -13463,14 +13202,14 @@
     "labelPosition": [
       56.472916,
       8.949445
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ENBD",
     "name": "Bodo ACC - Norway",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -13903,8 +13642,7 @@
     "labelPosition": [
       69.38036,
       15.84846
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ENBD-S",
@@ -13913,6 +13651,7 @@
       "ENBD_S"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -14017,14 +13756,14 @@
     "labelPosition": [
       63.23842,
       6.14866
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ENOB",
     "name": "Bodo Oceanic",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -14081,8 +13820,7 @@
     "labelPosition": [
       72.5,
       15
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ENOR",
@@ -14091,6 +13829,7 @@
       "NOR"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -14635,8 +14374,7 @@
     "labelPosition": [
       62.525969,
       9.455475
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ENOS",
@@ -14646,6 +14384,7 @@
       "NOR-6"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -14870,8 +14609,7 @@
     "labelPosition": [
       59.5,
       9.432621
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ENSV",
@@ -14881,6 +14619,7 @@
       "NOR-16"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -15001,8 +14740,7 @@
     "labelPosition": [
       60.758034,
       3.75
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EPWW",
@@ -15011,6 +14749,7 @@
       "EPWA"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -15883,14 +15622,14 @@
     "labelPosition": [
       52.433334,
       19.15
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ESMM",
     "name": "Malmo ACC - Sweden",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -16143,14 +15882,14 @@
     "labelPosition": [
       57.31,
       12.45
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ESOS",
     "name": "Stockholm ACC - Sweden",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -16881,14 +16620,14 @@
     "labelPosition": [
       61.33,
       16.41
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EVRR",
     "name": "Riga",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -17229,14 +16968,14 @@
     "labelPosition": [
       57.046945,
       23.378195
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "EYVL",
     "name": "Vilnius",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -17781,14 +17520,14 @@
     "labelPosition": [
       55.168631,
       22.43743
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "FACA",
     "name": "Cape Town",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -17921,8 +17660,7 @@
     "labelPosition": [
       -33.25,
       23.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "FACA-E",
@@ -17931,6 +17669,7 @@
       "FACA_E"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -18051,8 +17790,7 @@
     "labelPosition": [
       -33.6,
       25.7
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "FACA-W",
@@ -18061,6 +17799,7 @@
       "FACA_W"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -18153,14 +17892,14 @@
     "labelPosition": [
       -34,
       17.7
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "FAJO",
     "name": "Johannesburg Oceanic",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -18241,14 +17980,14 @@
     "labelPosition": [
       -45,
       32.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "FAJA",
     "name": "Johannesburg",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -18789,14 +18528,14 @@
     "labelPosition": [
       -27.566667,
       28
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "FBGR",
     "name": "Gaborone",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -19437,14 +19176,14 @@
     "labelPosition": [
       -22.172223,
       24.675
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "FCCC",
     "name": "Brazzaville",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -20165,14 +19904,14 @@
     "labelPosition": [
       1.5,
       14
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "FIMM",
     "name": "Mauritius",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -20213,14 +19952,14 @@
     "labelPosition": [
       -25.5,
       65.25
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "FLFI",
     "name": "Lusaka",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -21229,14 +20968,14 @@
     "labelPosition": [
       -13.091603,
       27.853286
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "FMMM",
     "name": "Antananarivo",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -21285,14 +21024,14 @@
     "labelPosition": [
       -20,
       48.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "FNAN",
     "name": "Luanda",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -21593,14 +21332,14 @@
     "labelPosition": [
       -12.083334,
       7.166666
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "FQBE",
     "name": "Beira",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -22281,14 +22020,14 @@
     "labelPosition": [
       -20.209379,
       36.607389
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "FSSS",
     "name": "Seychelles",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -22317,14 +22056,14 @@
     "labelPosition": [
       0.183333,
       52
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "FTTT",
     "name": "N'Djamena",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -22713,14 +22452,14 @@
     "labelPosition": [
       15,
       18.233334
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "FVHA",
     "name": "Harare",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -23433,14 +23172,14 @@
     "labelPosition": [
       -19.017743,
       29.143667
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "FWLL",
     "name": "Lilongwe",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -24385,14 +24124,14 @@
     "labelPosition": [
       -12.743854,
       34.294567
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "FYWH",
     "name": "Windhoek",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -24733,14 +24472,14 @@
     "labelPosition": [
       -22.22541,
       17.631199
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "FZZA",
     "name": "Kinshasa",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -25297,14 +25036,14 @@
     "labelPosition": [
       -3,
       22
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "GCCC",
     "name": "Canarias",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -25409,14 +25148,14 @@
     "labelPosition": [
       25.325,
       -18.116667
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "GLRB",
     "name": "Roberts",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -25561,14 +25300,14 @@
     "labelPosition": [
       6.337707,
       -12.124819
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "GMMM",
     "name": "Casablanca",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -25721,61 +25460,15 @@
     "labelPosition": [
       31.814217,
       -8.390876
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "GOOO",
     "name": "Dakar",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
-      [
-        [
-          16.999167,
-          -37.5
-        ],
-        [
-          12.966111,
-          -21.366389
-        ],
-        [
-          8.999722,
-          -16.916389
-        ],
-        [
-          0.000556,
-          -7.333056
-        ],
-        [
-          -1.848889,
-          -2.999444
-        ],
-        [
-          -9.531389,
-          -2.999444
-        ],
-        [
-          -11.998056,
-          -9.999722
-        ],
-        [
-          -6.365,
-          -9.999722
-        ],
-        [
-          -6.365278,
-          -15.999722
-        ],
-        [
-          7.666667,
-          -35
-        ],
-        [
-          13.499444,
-          -37.5
-        ]
-      ],
       [
         [
           27.331864,
@@ -26019,14 +25712,14 @@
     "labelPosition": [
       16,
       -11.933149
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "GVSC",
     "name": "Sal Oceanic",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -26055,14 +25748,14 @@
     "labelPosition": [
       18.481667,
       -28.751528
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "HAAA",
     "name": "Addis Ababa",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -26399,14 +26092,14 @@
     "labelPosition": [
       9.44375,
       40.500354
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "HBBA",
     "name": "Bujumbura",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -26695,14 +26388,14 @@
     "labelPosition": [
       -3.391956,
       29.916189
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "HCSM",
     "name": "Mogadishu",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -26855,14 +26548,14 @@
     "labelPosition": [
       5.092196,
       50.499371
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "HECC",
     "name": "Cairo",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -27019,14 +26712,14 @@
     "labelPosition": [
       27.998667,
       31.081334
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "HHAA",
     "name": "Asmara",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -27263,14 +26956,14 @@
     "labelPosition": [
       16.180911,
       39.819237
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "HKNA",
     "name": "Nairobi",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -27655,8 +27348,7 @@
     "labelPosition": [
       -0.351167,
       38.950528
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "HLLL",
@@ -27666,6 +27358,7 @@
       "HLLT"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -27902,25 +27595,14 @@
     "labelPosition": [
       26.916667,
       17.275245
-    ],
-    "oceanic": false
-  },
-  {
-    "icao": "HLLB",
-    "name": "Benina",
-    "prefix": [
-      "BEN"
-    ],
-    "alias": [
-      "HLLL"
-    ],
-    "boundaries": []
+    ]
   },
   {
     "icao": "HRYR",
     "name": "Kigali",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -28277,14 +27959,14 @@
     "labelPosition": [
       -1.948361,
       29.873917
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "HSSS",
     "name": "Khartoum",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -28641,14 +28323,14 @@
     "labelPosition": [
       13.000771,
       30.163157
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "HTDC",
     "name": "Dar-Es-Salaam",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -29229,14 +28911,14 @@
     "labelPosition": [
       -6.368818,
       36.425811
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "HUEC",
     "name": "Entebbe",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -29637,8 +29319,7 @@
     "labelPosition": [
       1.25369,
       32.306
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "KZAB",
@@ -29647,6 +29328,7 @@
       "ABQ"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -29907,8 +29589,7 @@
     "labelPosition": [
       33.208334,
       -107
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "KZAU",
@@ -29918,6 +29599,7 @@
       "ORD"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -30046,8 +29728,7 @@
     "labelPosition": [
       42.170834,
       -89.141667
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "KZBW",
@@ -30056,6 +29737,7 @@
       "BOS"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -30468,8 +30150,7 @@
     "labelPosition": [
       43.80125,
       -71.895834
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "KZDC",
@@ -30479,6 +30160,7 @@
       "WAS"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -30719,8 +30401,7 @@
     "labelPosition": [
       36.45875,
       -76.754167
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "KZDV",
@@ -30729,6 +30410,7 @@
       "DEN"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -30865,8 +30547,7 @@
     "labelPosition": [
       40.46875,
       -105.339584
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "KZFW",
@@ -30875,6 +30556,7 @@
       "FTW"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -31055,8 +30737,7 @@
     "labelPosition": [
       33.5,
       -97.811111
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "KZHU",
@@ -31066,65 +30747,8 @@
       "ZHU"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
-      [
-        [
-          26,
-          -95.916667
-        ],
-        [
-          27.533333,
-          -95.15
-        ],
-        [
-          28.25,
-          -94
-        ],
-        [
-          28.25,
-          -89
-        ],
-        [
-          28.141667,
-          -88
-        ],
-        [
-          27.5,
-          -87.683333
-        ],
-        [
-          27.5,
-          -86
-        ],
-        [
-          27.5,
-          -85.22
-        ],
-        [
-          26.9926,
-          -85.98524
-        ],
-        [
-          26.2,
-          -85.07
-        ],
-        [
-          24,
-          -85
-        ],
-        [
-          24,
-          -86
-        ],
-        [
-          24.5,
-          -88
-        ],
-        [
-          24.5,
-          -93
-        ]
-      ],
       [
         [
           29.766667,
@@ -31376,8 +31000,7 @@
     "labelPosition": [
       29.0625,
       -94.979167
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "KZID",
@@ -31386,6 +31009,7 @@
       "IND"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -31510,8 +31134,7 @@
     "labelPosition": [
       38.545833,
       -84.358334
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "KZJX",
@@ -31520,6 +31143,7 @@
       "JAX"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -31688,8 +31312,7 @@
     "labelPosition": [
       31.177778,
       -82.163611
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "KZKC",
@@ -31699,6 +31322,7 @@
       "KC"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -31823,8 +31447,7 @@
     "labelPosition": [
       38.120833,
       -95.322222
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "KZLA",
@@ -31834,6 +31457,7 @@
       "LA"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -31986,8 +31610,7 @@
     "labelPosition": [
       34.383334,
       -117.377084
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "KZLC",
@@ -31996,6 +31619,7 @@
       "SLC"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -32152,8 +31776,7 @@
     "labelPosition": [
       43.20625,
       -111.333334
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "KZMA",
@@ -32162,6 +31785,7 @@
       "MIA"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -32270,8 +31894,7 @@
     "labelPosition": [
       27.101389,
       -80.791666
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "KZMO",
@@ -32281,6 +31904,7 @@
       "ZMO"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -32373,8 +31997,7 @@
     "labelPosition": [
       23.741667,
       -73.375
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "KZME",
@@ -32383,6 +32006,7 @@
       "MEM"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -32543,8 +32167,7 @@
     "labelPosition": [
       34.620834,
       -90.422917
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "KZMP",
@@ -32553,6 +32176,7 @@
       "MSP"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -32717,8 +32341,7 @@
     "labelPosition": [
       44.233334,
       -92.676112
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "KZNY",
@@ -32727,6 +32350,7 @@
       "NY"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -32943,8 +32567,7 @@
     "labelPosition": [
       41,
       -75.7
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "KZWY",
@@ -32953,6 +32576,7 @@
       "ZWY"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -33161,8 +32785,7 @@
     "labelPosition": [
       31.5,
       -58.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "KZOA",
@@ -33171,6 +32794,7 @@
       "OAK"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -33287,8 +32911,7 @@
     "labelPosition": [
       37.916667,
       -122.004167
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "KZAK",
@@ -33300,6 +32923,7 @@
       "OORO"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -33470,21 +33094,7 @@
     "labelPosition": [
       28,
       -160
-    ],
-    "oceanic": false
-  },
-  {
-    "icao": "KZA1",
-    "name": "San Francisco Oceanic",
-    "prefix": [
-      "SF",
-      "SFR",
-      "SFRO"
-    ],
-    "alias": [
-      "KZAK"
-    ],
-    "boundaries": []
+    ]
   },
   {
     "icao": "KZOB",
@@ -33493,6 +33103,7 @@
       "CLE"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -33673,8 +33284,7 @@
     "labelPosition": [
       41.541667,
       -80.833334
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "KZSE",
@@ -33683,6 +33293,7 @@
       "SEA"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -33803,8 +33414,7 @@
     "labelPosition": [
       44.608334,
       -121.333334
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "KZTL",
@@ -33813,6 +33423,7 @@
       "ATL"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -33945,14 +33556,14 @@
     "labelPosition": [
       34.30625,
       -84.045833
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LAAA",
     "name": "Tirana",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -34261,14 +33872,14 @@
     "labelPosition": [
       41.153205,
       19.961987
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LBSR",
     "name": "Sofia",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -34761,14 +34372,14 @@
     "labelPosition": [
       42.725776,
       24.490898
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LBWR",
     "name": "Varna",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -34869,14 +34480,14 @@
     "labelPosition": [
       43.05,
       28.15
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LCCC",
     "name": "Nicosia",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -35021,8 +34632,7 @@
     "labelPosition": [
       33.9573,
       33.229451
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LCCC-E",
@@ -35031,6 +34641,7 @@
       "LCCC_E"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -35167,8 +34778,7 @@
     "labelPosition": [
       34.9,
       34.4
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LCCC-S",
@@ -35177,6 +34787,7 @@
       "LCCC_S"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -35229,8 +34840,7 @@
     "labelPosition": [
       33.4,
       32
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LCCC-W",
@@ -35239,6 +34849,7 @@
       "LCCC_W"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -35279,14 +34890,14 @@
     "labelPosition": [
       35,
       31.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LDZO",
     "name": "Zagreb",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -36287,8 +35898,7 @@
     "labelPosition": [
       43.97195,
       14.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LECB",
@@ -36297,6 +35907,7 @@
       "LEBL"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -36405,8 +36016,7 @@
     "labelPosition": [
       40.3,
       1.45
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LECM",
@@ -36415,6 +36025,7 @@
       "LEMD"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -36955,14 +36566,14 @@
     "labelPosition": [
       41.9,
       -4.4
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LECS",
     "name": "Sevilla",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -37147,14 +36758,14 @@
     "labelPosition": [
       38,
       -4.4
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LEZL",
     "name": "Sevilla ACC - Sevilla",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -37327,8 +36938,7 @@
     "labelPosition": [
       36.8,
       -5.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LECP",
@@ -37337,6 +36947,7 @@
       "LEPA"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -37373,14 +36984,14 @@
     "labelPosition": [
       39.4,
       2.05
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LEVC",
     "name": "Valencia",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -37453,14 +37064,14 @@
     "labelPosition": [
       39.2,
       -0.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LFBB",
     "name": "Bordeaux",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -37633,14 +37244,14 @@
     "labelPosition": [
       44.775,
       0.628889
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LFEE",
     "name": "Reims",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -37869,8 +37480,7 @@
     "labelPosition": [
       47.983334,
       6.275
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LFFF",
@@ -37879,6 +37489,7 @@
       "LFPG"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -38139,14 +37750,14 @@
     "labelPosition": [
       48.725,
       2.875
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LFFM",
     "name": "France Military",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -38995,14 +38606,14 @@
     "labelPosition": [
       47,
       3
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LFMM",
     "name": "Marseille",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -39331,14 +38942,14 @@
     "labelPosition": [
       42.75,
       6.0125
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LFRR",
     "name": "Brest",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -39395,59 +39006,14 @@
     "labelPosition": [
       46.791667,
       -4.125
-    ],
-    "oceanic": false
-  },
-  {
-    "icao": "LFUB",
-    "name": "Bordeaux Upper",
-    "prefix": [],
-    "alias": [
-      "LFBB"
-    ],
-    "boundaries": []
-  },
-  {
-    "icao": "LFUE",
-    "name": "Reims Upper",
-    "prefix": [],
-    "alias": [
-      "LFEE"
-    ],
-    "boundaries": []
-  },
-  {
-    "icao": "LFUM",
-    "name": "Marseille Upper",
-    "prefix": [],
-    "alias": [
-      "LFMM"
-    ],
-    "boundaries": []
-  },
-  {
-    "icao": "LFUP",
-    "name": "Paris Upper",
-    "prefix": [],
-    "alias": [
-      "LFFF"
-    ],
-    "boundaries": []
-  },
-  {
-    "icao": "LFUR",
-    "name": "Brest Upper",
-    "prefix": [],
-    "alias": [
-      "LFRR"
-    ],
-    "boundaries": []
+    ]
   },
   {
     "icao": "LGGG",
     "name": "Athens",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -40048,8 +39614,7 @@
     "labelPosition": [
       36.7,
       24.55
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LGGG-E",
@@ -40058,6 +39623,7 @@
       "LGGG_E"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -40206,8 +39772,7 @@
     "labelPosition": [
       35.2,
       27.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LGGG-W",
@@ -40216,6 +39781,7 @@
       "LGGG_W"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -40352,14 +39918,14 @@
     "labelPosition": [
       37.09045,
       20.65849
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LGMD",
     "name": "Makedonia",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -40756,14 +40322,14 @@
     "labelPosition": [
       39.7,
       24
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LHCC",
     "name": "Budapest",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -41608,14 +41174,14 @@
     "labelPosition": [
       47.169264,
       19.50865
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LIBB",
     "name": "Brindisi",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -41684,14 +41250,14 @@
     "labelPosition": [
       41.2,
       16.041666
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LIMM",
     "name": "Milano",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -42064,14 +41630,14 @@
     "labelPosition": [
       45,
       8.65
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LIPP",
     "name": "Padova",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -42296,14 +41862,14 @@
     "labelPosition": [
       45.3,
       11.55
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LIRR",
     "name": "Roma",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -42380,14 +41946,14 @@
     "labelPosition": [
       40.108334,
       13.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LJLA",
     "name": "Ljubljana",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -42824,14 +42390,14 @@
     "labelPosition": [
       46.028879,
       14.707096
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LKAA",
     "name": "Praha",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -43220,8 +42786,7 @@
     "labelPosition": [
       49.8,
       15.475
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LLLL",
@@ -43231,6 +42796,7 @@
       "SHOLET"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -43619,45 +43185,14 @@
     "labelPosition": [
       31.5,
       34.74961
-    ],
-    "oceanic": false
-  },
-  {
-    "icao": "LLSC",
-    "name": "Tel Aviv South Control",
-    "prefix": [],
-    "alias": [
-      "LLLL"
-    ],
-    "boundaries": []
-  },
-  {
-    "icao": "LLPL",
-    "name": "Pluto",
-    "prefix": [
-      "PLUTO"
-    ],
-    "alias": [
-      "LLLL"
-    ],
-    "boundaries": []
-  },
-  {
-    "icao": "LLGV",
-    "name": "Hagav",
-    "prefix": [
-      "HAGAV"
-    ],
-    "alias": [
-      "LLLL"
-    ],
-    "boundaries": []
+    ]
   },
   {
     "icao": "LMMM",
     "name": "Malta",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -43694,8 +43229,7 @@
     "labelPosition": [
       35.416667,
       15.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LOVV",
@@ -43704,6 +43238,7 @@
       "LOWW"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -44076,14 +43611,14 @@
     "labelPosition": [
       47.3,
       14.15
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LPPC",
     "name": "Lisboa",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -44732,8 +44267,7 @@
     "labelPosition": [
       40,
       -9
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LPPO",
@@ -44742,6 +44276,7 @@
       "LPAZ"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -44798,17 +44333,7 @@
     "labelPosition": [
       33,
       -28
-    ],
-    "oceanic": false
-  },
-  {
-    "icao": "LPAM",
-    "name": "Lisboa Military",
-    "prefix": [],
-    "alias": [
-      "LPPC"
-    ],
-    "boundaries": []
+    ]
   },
   {
     "icao": "LQSB",
@@ -44817,6 +44342,7 @@
       "LQSA"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -45517,14 +45043,14 @@
     "labelPosition": [
       43.915189,
       17.679715
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LRBB",
     "name": "Bucharest",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -46713,8 +46239,7 @@
     "labelPosition": [
       45.949777,
       25.402153
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LSAS",
@@ -46724,6 +46249,7 @@
       "LSAZ"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -47072,8 +46598,7 @@
     "labelPosition": [
       46.85,
       8.216667
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LTAA",
@@ -47082,6 +46607,7 @@
       "LTBA"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -47642,8 +47168,7 @@
     "labelPosition": [
       39.2875,
       37.399954
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LUUU",
@@ -47652,6 +47177,7 @@
       "LUKK"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -47876,14 +47402,14 @@
     "labelPosition": [
       46.959166,
       29
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LWSS",
     "name": "Skopje",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -48096,14 +47622,14 @@
     "labelPosition": [
       41.585028,
       21.743602
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LYBA",
     "name": "Beograd",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -49080,14 +48606,14 @@
     "labelPosition": [
       43.65597,
       20.65533
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "LZBB",
     "name": "Bratislava",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -49652,14 +49178,14 @@
     "labelPosition": [
       48.666667,
       19.708333
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "MDCS",
     "name": "Santo Domingo",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -49772,14 +49298,14 @@
     "labelPosition": [
       18.208334,
       -69.999305
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "MHTG",
     "name": "Central America",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -50016,14 +49542,14 @@
     "labelPosition": [
       11.075,
       -93.25
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "MKJK",
     "name": "Kingston",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -50068,8 +49594,7 @@
     "labelPosition": [
       17.5,
       -77.625
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "MMEX",
@@ -50078,6 +49603,7 @@
       "MEX"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -50150,14 +49676,14 @@
     "labelPosition": [
       18.56,
       -100.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "MMID",
     "name": "Merida",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -50346,14 +49872,14 @@
     "labelPosition": [
       17,
       -93
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "MMTY",
     "name": "Monterrey",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -50642,8 +50168,7 @@
     "labelPosition": [
       27.39,
       -102.75
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "MMZT",
@@ -50653,49 +50178,8 @@
       "MMMZ"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
-      [
-        [
-          30,
-          -120
-        ],
-        [
-          27.925,
-          -117.49
-        ],
-        [
-          23.893056,
-          -113.00388
-        ],
-        [
-          21.408333,
-          -110.62972
-        ],
-        [
-          19.039167,
-          -108.49861
-        ],
-        [
-          16.183333,
-          -106
-        ],
-        [
-          15,
-          -105
-        ],
-        [
-          11.5,
-          -100
-        ],
-        [
-          10,
-          -104.5
-        ],
-        [
-          5,
-          -120
-        ]
-      ],
       [
         [
           30.75,
@@ -50815,14 +50299,14 @@
     "labelPosition": [
       24.45,
       -109
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "MPZL",
     "name": "Panama",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -51019,14 +50503,14 @@
     "labelPosition": [
       9.75,
       -80.1125
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "MTEG",
     "name": "Port-Au-Prince",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -51139,8 +50623,7 @@
     "labelPosition": [
       18.708334,
       -73.316667
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "MUFH",
@@ -51149,6 +50632,7 @@
       "HAV"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -51205,8 +50689,7 @@
     "labelPosition": [
       21.25,
       -79.666666
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "MYNN",
@@ -51215,6 +50698,7 @@
       "MYNN"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -51251,92 +50735,14 @@
     "labelPosition": [
       24.794167,
       -77.5
-    ],
-    "oceanic": false
-  },
-  {
-    "icao": "NFFF",
-    "name": "Nadi Oceanic",
-    "prefix": [],
-    "alias": [],
-    "boundaries": [
-      [
-        [
-          -10,
-          170
-        ],
-        [
-          -14,
-          163
-        ],
-        [
-          -14,
-          161.25
-        ],
-        [
-          -17.666667,
-          163
-        ],
-        [
-          -30,
-          163
-        ],
-        [
-          -28,
-          168
-        ],
-        [
-          -25,
-          171.416667
-        ],
-        [
-          -25,
-          180
-        ],
-        [
-          -5,
-          180
-        ],
-        [
-          3.5,
-          180
-        ],
-        [
-          3.5,
-          170
-        ]
-      ],
-      [
-        [
-          -5,
-          -171.166667
-        ],
-        [
-          -5,
-          -180
-        ],
-        [
-          -25,
-          -180
-        ],
-        [
-          -13.9189,
-          -175.1063
-        ]
-      ]
-    ],
-    "country": "Fiji-Tonga",
-    "labelPosition": [
-      -13.25,
-      2.44685
-    ],
-    "oceanic": true
+    ]
   },
   {
     "icao": "NVVV",
     "name": "Vila",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -51361,23 +50767,14 @@
     "labelPosition": [
       -15.5,
       168.5
-    ],
-    "oceanic": false
-  },
-  {
-    "icao": "NSTU",
-    "name": "Pago Pago",
-    "prefix": [],
-    "alias": [
-      "NZZO"
-    ],
-    "boundaries": []
+    ]
   },
   {
     "icao": "NTTT",
     "name": "Tahiti Oceanic",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -51410,14 +50807,14 @@
     "labelPosition": [
       -13.25,
       -138.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "NZZO",
     "name": "Auckland Oceanic",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -51484,8 +50881,7 @@
     "labelPosition": [
       -40,
       -170
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "NZCR",
@@ -51494,6 +50890,7 @@
       "NZCH-R"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -51734,8 +51131,7 @@
     "labelPosition": [
       -37.5,
       174.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "NZCB",
@@ -51744,6 +51140,7 @@
       "NZCH-B"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -51848,8 +51245,7 @@
     "labelPosition": [
       -38.25,
       176.75
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "NZCT",
@@ -51858,6 +51254,7 @@
       "NZCH-T"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -51994,8 +51391,7 @@
     "labelPosition": [
       -40,
       172.75
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "NZCK",
@@ -52004,6 +51400,7 @@
       "NZCH-K"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -52064,8 +51461,7 @@
     "labelPosition": [
       -42.5,
       173.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "NZCS",
@@ -52074,6 +51470,7 @@
       "NZCH-S"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -52122,14 +51519,14 @@
     "labelPosition": [
       -45,
       170
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "NZOH",
     "name": "Ohakea ",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -52262,14 +51659,14 @@
     "labelPosition": [
       -40,
       176.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "NZCM",
     "name": "McMurdo",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -52288,38 +51685,20 @@
           -90,
           180
         ]
-      ],
-      [
-        [
-          -60,
-          -180
-        ],
-        [
-          -60,
-          -131
-        ],
-        [
-          -90,
-          -131
-        ],
-        [
-          -90,
-          -180
-        ]
       ]
     ],
     "country": "New Zealand",
     "labelPosition": [
       -65,
-      -160.5
-    ],
-    "oceanic": true
+      171
+    ]
   },
   {
     "icao": "NSFA",
     "name": "Faleolo (Non-Standard)",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -52344,14 +51723,14 @@
     "labelPosition": [
       -15,
       -167
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "OAKX",
     "name": "Kabul",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -53172,14 +52551,14 @@
     "labelPosition": [
       33.951253,
       67.683334
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "OBBB",
     "name": "Bahrain",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -53256,14 +52635,14 @@
     "labelPosition": [
       26,
       51.333333
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "OEJD",
     "name": "Jeddah",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -53604,14 +52983,14 @@
     "labelPosition": [
       23.909584,
       43.291667
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "OIIX",
     "name": "Tehran",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -54344,14 +53723,14 @@
     "labelPosition": [
       32.225446,
       53.691667
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "OJAC",
     "name": "Amman",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -54700,14 +54079,14 @@
     "labelPosition": [
       31.285853,
       36.35
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "OKAC",
     "name": "Kuwait",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -54816,8 +54195,7 @@
     "labelPosition": [
       29.178334,
       48.111389
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "OLBB",
@@ -54827,6 +54205,7 @@
       "OLBA"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -54975,8 +54354,7 @@
     "labelPosition": [
       33.852245,
       35.758643
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "OMAE",
@@ -54985,6 +54363,7 @@
       "UAE"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -55037,14 +54416,14 @@
     "labelPosition": [
       24.400824,
       54.183333
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "OOMM",
     "name": "Muscat",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -55133,14 +54512,14 @@
     "labelPosition": [
       21.175,
       58.25
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "OPKR",
     "name": "Karachi",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -55357,14 +54736,14 @@
     "labelPosition": [
       26.749449,
       67.256735
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "OPLR",
     "name": "Lahore",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -55865,14 +55244,14 @@
     "labelPosition": [
       33.463532,
       71.686419
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ORBB",
     "name": "Baghdad",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -56289,8 +55668,7 @@
     "labelPosition": [
       33.208335,
       43.771688
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "OSTT",
@@ -56299,6 +55677,7 @@
       "OSDI"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -56571,14 +55950,14 @@
     "labelPosition": [
       34.779167,
       38.9125
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "OYSC",
     "name": "Sanaa",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -56799,8 +56178,7 @@
     "labelPosition": [
       15.775,
       50.83
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "PAZA",
@@ -56809,6 +56187,7 @@
       "ANC"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -56939,8 +56318,7 @@
     "labelPosition": [
       61.066666,
       -165.9
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "PGZU",
@@ -56952,6 +56330,7 @@
       "UAM"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -57248,8 +56627,7 @@
     "labelPosition": [
       11.8,
       144.795983
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "PHZH",
@@ -57259,6 +56637,7 @@
       "HCF"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -57331,8 +56710,7 @@
     "labelPosition": [
       21.6,
       -157
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "RCAA",
@@ -57341,6 +56719,7 @@
       "TPE"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -57373,8 +56752,7 @@
     "labelPosition": [
       23.67,
       121.39
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "RJCG",
@@ -57384,6 +56762,7 @@
       "RJCO"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -57436,8 +56815,7 @@
     "labelPosition": [
       41.6141,
       138.37
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "RJDG",
@@ -57446,6 +56824,7 @@
       "FKO"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -57514,8 +56893,7 @@
     "labelPosition": [
       31.5,
       128
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "RJJJ",
@@ -57531,6 +56909,7 @@
       "TYOW"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -57643,14 +57022,14 @@
     "labelPosition": [
       32.541667,
       150.208334
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "RJTG",
     "name": "Tokyo ACC - Fukuoka",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -57735,14 +57114,14 @@
     "labelPosition": [
       37.85,
       134.6369
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "RKRR",
     "name": "Incheon",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -57959,14 +57338,14 @@
     "labelPosition": [
       34.319861,
       126
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "RORG",
     "name": "Naha ACC - Fukuoka",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -58003,14 +57382,14 @@
     "labelPosition": [
       25.504028,
       129.248056
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "RPHI",
     "name": "Manila",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -58063,14 +57442,14 @@
     "labelPosition": [
       12.248708,
       123.501372
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SACF",
     "name": "Cordoba",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -58223,14 +57602,14 @@
     "labelPosition": [
       -27.875,
       -64.925
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SACO",
     "name": "Cordoba TMA - Cordoba",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -58359,14 +57738,14 @@
     "labelPosition": [
       -31.5,
       -64.2
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SAEF",
     "name": "Ezeiza",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -58491,8 +57870,7 @@
     "labelPosition": [
       -42,
       -49
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SAEF-N",
@@ -58501,6 +57879,7 @@
       "SAEF_N"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -58585,8 +57964,7 @@
     "labelPosition": [
       -33.1,
       -60.2
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SAEF-S",
@@ -58595,6 +57973,7 @@
       "SAEF_S"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -58711,14 +58090,14 @@
     "labelPosition": [
       -37.5,
       -62.15
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "BAIRES",
     "name": "Baires TMA - Ezeiza",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -58819,14 +58198,14 @@
     "labelPosition": [
       -35.4,
       -58.56082
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SAMF",
     "name": "Mendoza",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -58911,14 +58290,14 @@
     "labelPosition": [
       -35.35,
       -67.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SAME",
     "name": "Mendoza TMA - Mendoza",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -59039,14 +58418,14 @@
     "labelPosition": [
       -33.05,
       -68.9
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SARR",
     "name": "Resistencia",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -59291,14 +58670,14 @@
     "labelPosition": [
       -29.4,
       -58.9
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SARE",
     "name": "Resistencia TMA - Resistencia",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -59591,14 +58970,14 @@
     "labelPosition": [
       -27.7,
       -59.1
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SAVF",
     "name": "Comodoro Rivadavia",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -59835,14 +59214,14 @@
     "labelPosition": [
       -49.641667,
       -49
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SAVC",
     "name": "Comodoro Rivadavia TMA - Comodoro Rivadavia",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -59995,14 +59374,14 @@
     "labelPosition": [
       -46,
       -67.4
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SBAZ",
     "name": "Amazonica",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -60951,8 +60330,7 @@
     "labelPosition": [
       -6.051,
       -57.65525
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SBBS",
@@ -60961,6 +60339,7 @@
       "SBBR"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -61297,14 +60676,14 @@
     "labelPosition": [
       -16.050833,
       -48.416667
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SBCW",
     "name": "Curitiba",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -61745,14 +61124,14 @@
     "labelPosition": [
       -25.166834,
       -51.104167
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SBAO",
     "name": "Atlantico Oceanic",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -61921,14 +61300,14 @@
     "labelPosition": [
       -13.166666,
       -30.375
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SBRE",
     "name": "Recife",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -62201,14 +61580,14 @@
     "labelPosition": [
       -8.736945,
       -40.277056
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SCCZ",
     "name": "Punta Arenas",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -62345,14 +61724,14 @@
     "labelPosition": [
       -53.5,
       -77.85
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SCEZ",
     "name": "Santiago",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -62429,14 +61808,14 @@
     "labelPosition": [
       -33.5,
       -78
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SCFZ",
     "name": "Antofagasta",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -62633,14 +62012,14 @@
     "labelPosition": [
       -22.983334,
       -78
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SCIZ",
     "name": "Pascua",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -62689,14 +62068,14 @@
     "labelPosition": [
       -37.5,
       -110.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SCTZ",
     "name": "Puerto Mont",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -62821,14 +62200,14 @@
     "labelPosition": [
       -42.75,
       -78
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SEFG",
     "name": "Guayaquil",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -63029,14 +62408,14 @@
     "labelPosition": [
       -1.770833,
       -83.583334
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SGFA",
     "name": "Asuncion",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -63293,14 +62672,14 @@
     "labelPosition": [
       -23.479613,
       -58.458802
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SKEC",
     "name": "Barranquilla",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -63389,14 +62768,14 @@
     "labelPosition": [
       11.316331,
       -74.208836
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SKED",
     "name": "Bogota",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -63865,14 +63244,14 @@
     "labelPosition": [
       2.210747,
       -74.875487
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SLLF",
     "name": "La Paz",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -64333,14 +63712,14 @@
     "labelPosition": [
       -16.262908,
       -63.508809
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SMPM",
     "name": "Paramaribo",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -64473,8 +63852,7 @@
     "labelPosition": [
       5.566667,
       -55.95
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SOOO",
@@ -64483,6 +63861,7 @@
       "SOCC"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -64639,14 +64018,14 @@
     "labelPosition": [
       7.816667,
       -44.775
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SPIM",
     "name": "Lima",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -65175,79 +64554,15 @@
     "labelPosition": [
       -9.2,
       -79.333334
-    ],
-    "oceanic": false
-  },
-  {
-    "icao": "SPI1",
-    "name": "Lima North",
-    "prefix": [
-      "SP-N"
-    ],
-    "alias": [
-      "SPIM"
-    ],
-    "boundaries": []
-  },
-  {
-    "icao": "SPI2",
-    "name": "Lima South",
-    "prefix": [
-      "SP-S"
-    ],
-    "alias": [
-      "SPIM"
-    ],
-    "boundaries": []
-  },
-  {
-    "icao": "SPI3",
-    "name": "Lima North East",
-    "prefix": [
-      "SP-E",
-      "SP-NE"
-    ],
-    "alias": [
-      "SPIM"
-    ],
-    "boundaries": []
+    ]
   },
   {
     "icao": "SUEO",
     "name": "Montevideo",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
-      [
-        [
-          -34,
-          -51.555556
-        ],
-        [
-          -34,
-          -42
-        ],
-        [
-          -34,
-          -10
-        ],
-        [
-          -39,
-          -10
-        ],
-        [
-          -39,
-          -44.5
-        ],
-        [
-          -40,
-          -45
-        ],
-        [
-          -36.758333,
-          -53.196389
-        ]
-      ],
       [
         [
           -30.25,
@@ -65367,14 +64682,14 @@
     "labelPosition": [
       -33.4375,
       -55.036112
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SVZM",
     "name": "Maiquetia",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -65839,14 +65154,14 @@
     "labelPosition": [
       8.212349,
       -66.600468
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "SYGC",
     "name": "Georgetown",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -66111,8 +65426,7 @@
     "labelPosition": [
       5.033333,
       -58.936083
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "TJZS",
@@ -66121,6 +65435,7 @@
       "SJU"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -66197,14 +65512,14 @@
     "labelPosition": [
       19.25,
       -65
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "TNCF",
     "name": "Curacao",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -66253,14 +65568,14 @@
     "labelPosition": [
       14.2,
       -70.533334
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "TTZP",
     "name": "Piarco",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -66341,8 +65656,7 @@
     "labelPosition": [
       15.608334,
       -51.25
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "TXKF",
@@ -66351,6 +65665,7 @@
       "BDA"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -66503,14 +65818,14 @@
     "labelPosition": [
       31.4,
       -64.7
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UAAA",
     "name": "Almaty",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -66707,14 +66022,14 @@
     "labelPosition": [
       45.288333,
       77.071667
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UACC",
     "name": "Astana",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -67935,14 +67250,14 @@
     "labelPosition": [
       51,
       71
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UAII",
     "name": "Shymkent",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -68107,14 +67422,14 @@
     "labelPosition": [
       44.35,
       66.75
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UATT",
     "name": "Aktyubinsk",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -68711,8 +68026,7 @@
     "labelPosition": [
       48.5,
       54.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UBBA",
@@ -68721,6 +68035,7 @@
       "UBBB"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -68869,14 +68184,14 @@
     "labelPosition": [
       40.266667,
       48.691666
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UCFM",
     "name": "Bishkek",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -69093,14 +68408,14 @@
     "labelPosition": [
       41.916667,
       76.1
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UCFO",
     "name": "Osh",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -69201,8 +68516,7 @@
     "labelPosition": [
       40.770833,
       73.3
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UDDD",
@@ -69211,6 +68525,7 @@
       "UGEE"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -69327,14 +68642,14 @@
     "labelPosition": [
       40.058334,
       45.008334
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UEEE",
     "name": "Yakutsk",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -69507,14 +68822,14 @@
     "labelPosition": [
       65.25,
       131.8
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UGGG",
     "name": "Tbilisi",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -69759,14 +69074,14 @@
     "labelPosition": [
       42.166667,
       43.441667
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UHHH",
     "name": "Khabarovsk",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -70915,14 +70230,14 @@
     "labelPosition": [
       53.15,
       135.3
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UHMM",
     "name": "Magadan",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -71081,14 +70396,14 @@
     "labelPosition": [
       64.25,
       -178.75
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UHPP",
     "name": "Petropavlovsk-Kamchatsky",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -71169,14 +70484,14 @@
     "labelPosition": [
       57,
       164.3
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UIII",
     "name": "Irkutsk",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -71897,8 +71212,7 @@
     "labelPosition": [
       54.5,
       104.258333
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UKBV",
@@ -71907,6 +71221,7 @@
       "UKBB"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -72287,8 +71602,7 @@
     "labelPosition": [
       50.0655,
       30.941667
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UKFV",
@@ -72297,6 +71611,7 @@
       "UKFF"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -72437,14 +71752,14 @@
     "labelPosition": [
       45.233333,
       33.759167
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UKDV",
     "name": "Dnipropetrovsk",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -73001,8 +72316,7 @@
     "labelPosition": [
       48.911666,
       36.516667
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UKLV",
@@ -73011,6 +72325,7 @@
       "UKLL"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -73755,8 +73070,7 @@
     "labelPosition": [
       49.807958,
       24.987917
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UKOV",
@@ -73765,6 +73079,7 @@
       "UKOO"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -73909,14 +73224,14 @@
     "labelPosition": [
       46.501667,
       30.6275
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ULAA",
     "name": "Arkhangelsk ACC - Arkhangelsk",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -74001,14 +73316,14 @@
     "labelPosition": [
       64.95,
       42.558334
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ULAM",
     "name": "Naryan-Mar ACC - Arkhangelsk",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -74077,14 +73392,14 @@
     "labelPosition": [
       68.908334,
       51.483334
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ULKK",
     "name": "Kotlas ACC - Arkhangelsk",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -74129,14 +73444,14 @@
     "labelPosition": [
       61.533334,
       44.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ULLL",
     "name": "Sankt-Peterburg ACC - Sankt-Peterburg",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -74645,93 +73960,15 @@
     "labelPosition": [
       59.55,
       30.925
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ULMM",
     "name": "Murmansk",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
-      [
-        [
-          90,
-          32
-        ],
-        [
-          90,
-          168.973333
-        ],
-        [
-          78,
-          114.75
-        ],
-        [
-          77.333333,
-          89.5
-        ],
-        [
-          75.333333,
-          81.833333
-        ],
-        [
-          74.5,
-          70.683333
-        ],
-        [
-          73.666667,
-          70.916667
-        ],
-        [
-          73.666667,
-          68.666667
-        ],
-        [
-          71.5,
-          66.37244
-        ],
-        [
-          71.166667,
-          57.65
-        ],
-        [
-          73.9,
-          58
-        ],
-        [
-          73,
-          48.616667
-        ],
-        [
-          70.5,
-          49.5
-        ],
-        [
-          68.666667,
-          43.266667
-        ],
-        [
-          71.5,
-          32.083333
-        ],
-        [
-          74,
-          32.083333
-        ],
-        [
-          74,
-          35
-        ],
-        [
-          81,
-          35
-        ],
-        [
-          81,
-          32
-        ]
-      ],
       [
         [
           69.8,
@@ -74895,14 +74132,14 @@
     "labelPosition": [
       68.775,
       35.858334
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ULWW",
     "name": "Vologda ACC - Sankt-Peterburg",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -74955,14 +74192,14 @@
     "labelPosition": [
       59.958333,
       40.975
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UMKK",
     "name": "Kaliningrad",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -75175,8 +74412,7 @@
     "labelPosition": [
       54.8,
       20.215527
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UMMV",
@@ -75185,6 +74421,7 @@
       "UMMM"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -75997,14 +75234,14 @@
     "labelPosition": [
       53.78,
       27.958334
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UNKL",
     "name": "Krasnoyarsk",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -76313,14 +75550,14 @@
     "labelPosition": [
       64.68202,
       95.66849
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UNNT",
     "name": "Novosibirsk",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -77125,14 +76362,14 @@
     "labelPosition": [
       56.75,
       79.666667
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "URRV",
     "name": "Rostov",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -77873,14 +77110,14 @@
     "labelPosition": [
       46.583333,
       43.133334
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "USCC",
     "name": "Chelyabinsk ACC - Yekaterinburg",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -78173,14 +77410,14 @@
     "labelPosition": [
       54.74,
       61.66
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "USDD",
     "name": "Salekhard ACC - Tyumen",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -78237,14 +77474,14 @@
     "labelPosition": [
       66.058334,
       68.25
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "USDK",
     "name": "Kamenny Mys ACC - Tyumen",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -78309,14 +77546,14 @@
     "labelPosition": [
       70.333334,
       73.666667
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "USDS",
     "name": "Tarko-Sale ACC - Tyumen",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -78369,14 +77606,14 @@
     "labelPosition": [
       65.375,
       78.3
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "USKK",
     "name": "Kirov ACC - Yekaterinburg",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -78437,14 +77674,14 @@
     "labelPosition": [
       58.283333,
       48.608334
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "USPP",
     "name": "Perm ACC - Yekaterinburg",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -78501,14 +77738,14 @@
     "labelPosition": [
       58.825,
       55.308334
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "USSS",
     "name": "Yekaterinburg ACC - Yekaterinburg",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -78601,14 +77838,14 @@
     "labelPosition": [
       58.88,
       60.85
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "USTR",
     "name": "Tyumen ACC - Tyumen",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -78837,14 +78074,14 @@
     "labelPosition": [
       60.22,
       68.66
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UTAA",
     "name": "Ashkhabad",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -79081,14 +78318,14 @@
     "labelPosition": [
       38.6,
       59.6
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UTAK",
     "name": "Turkmenbashy",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -79189,14 +78426,14 @@
     "labelPosition": [
       39.841667,
       54.558334
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UTAT",
     "name": "Dashkhovuz",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -79245,14 +78482,14 @@
     "labelPosition": [
       41.408334,
       59.083334
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UTAV",
     "name": "Turkmenabat",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -79329,14 +78566,14 @@
     "labelPosition": [
       38.5375,
       63.458334
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UTDD",
     "name": "Dushanbe",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -79797,14 +79034,14 @@
     "labelPosition": [
       38.8,
       71.333333
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UTNR",
     "name": "Nukus",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -79889,14 +79126,14 @@
     "labelPosition": [
       43.033334,
       59.95
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UTSD",
     "name": "Samarkand",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -79989,14 +79226,14 @@
     "labelPosition": [
       39.9,
       65.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UTTR",
     "name": "Tashkent",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -80129,14 +79366,14 @@
     "labelPosition": [
       40.6,
       68.208333
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UUWV",
     "name": "Moscow",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -80977,14 +80214,14 @@
     "labelPosition": [
       54.074167,
       38.841667
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UUYY",
     "name": "Syktyvkar",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -81125,14 +80362,14 @@
     "labelPosition": [
       64.24,
       55.38
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "UWWW",
     "name": "Samara",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -81609,14 +80846,14 @@
     "labelPosition": [
       53.59,
       51.42
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VAAH",
     "name": "Ahmedabad",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -81737,14 +80974,14 @@
     "labelPosition": [
       23.1935,
       72.4328
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VABB",
     "name": "Mumbai ACC - Mumbai",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -81841,14 +81078,14 @@
     "labelPosition": [
       18.34775,
       71.58858
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VABF",
     "name": "Mumbai",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -81977,14 +81214,14 @@
     "labelPosition": [
       15.29,
       70
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VABX",
     "name": "Mumbai Oceanic",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -82061,14 +81298,14 @@
     "labelPosition": [
       11.572,
       65.0758
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VANP",
     "name": "Nagpur",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -82113,14 +81350,14 @@
     "labelPosition": [
       21.3498,
       77.56858
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VCCF",
     "name": "Colombo",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -82161,14 +81398,14 @@
     "labelPosition": [
       4,
       84.25
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VDPP",
     "name": "Phnom Penh",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -82597,14 +81834,14 @@
     "labelPosition": [
       12.674086,
       104.9943
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VEBN",
     "name": "Varanasi",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -82665,14 +81902,14 @@
     "labelPosition": [
       25.245,
       82.3335
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VECC",
     "name": "Kolkata ACC - Kolkata",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -82753,14 +81990,14 @@
     "labelPosition": [
       22.97,
       86.46
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VECC-B",
     "name": "Kolkata (Bhubneshwar) ACC - Kolkata",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -82809,14 +82046,14 @@
     "labelPosition": [
       19.392,
       84.1645
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VECC-R",
     "name": "Kolkata (Raipur) ACC - Kolkata",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -82861,14 +82098,14 @@
     "labelPosition": [
       22.202,
       82.3251
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VECF",
     "name": "Kolkata",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -83113,14 +82350,14 @@
     "labelPosition": [
       20.1,
       89.4
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VECX",
     "name": "Kolkata Oceanic",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -83149,14 +82386,14 @@
     "labelPosition": [
       16.582,
       88.5025
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VEGF",
     "name": "Guwahati",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -83793,14 +83030,14 @@
     "labelPosition": [
       26.455,
       92.131667
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VGFR",
     "name": "Dhaka",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -84289,8 +83526,7 @@
     "labelPosition": [
       23.801272,
       90.345546
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VHHK",
@@ -84299,6 +83535,7 @@
       "HKG"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -84515,14 +83752,14 @@
     "labelPosition": [
       20.166667,
       114.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VIDF",
     "name": "Delhi",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -85123,14 +84360,14 @@
     "labelPosition": [
       30.258011,
       76.556075
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VIDP",
     "name": "Delhi ACC - Delhi",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -85307,14 +84544,14 @@
     "labelPosition": [
       27.5705,
       76.3419
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VLVT",
     "name": "Vientiane",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -85911,14 +85148,14 @@
     "labelPosition": [
       19.870834,
       102.660161
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VNSM",
     "name": "Kathmandu",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -86295,14 +85532,14 @@
     "labelPosition": [
       28.391824,
       84.134033
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VOBL",
     "name": "Bengaluru",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -86451,14 +85688,14 @@
     "labelPosition": [
       14.3909,
       77.3225
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VOCI",
     "name": "Cochin",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -86571,14 +85808,14 @@
     "labelPosition": [
       11.23,
       76.18
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VOHS",
     "name": "Shamshabad (Hyderabad)",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -86623,14 +85860,14 @@
     "labelPosition": [
       17.542,
       78.3251
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VOMF",
     "name": "Chennai",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -86719,14 +85956,14 @@
     "labelPosition": [
       15.03,
       83.59
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VOML",
     "name": "Mangalore",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -86839,14 +86076,14 @@
     "labelPosition": [
       13.3312,
       74.3543
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VOMM",
     "name": "Chennai ACC - Chennai",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -86999,14 +86236,14 @@
     "labelPosition": [
       13.3105,
       81.151
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VOMX",
     "name": "Chennai Oceanic",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -87051,14 +86288,14 @@
     "labelPosition": [
       10.472,
       88.5744
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VOTV",
     "name": "Trivandrum",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -87139,14 +86376,14 @@
     "labelPosition": [
       8.1346,
       75.3307
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VRMF",
     "name": "Male",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -87191,14 +86428,14 @@
     "labelPosition": [
       0.75,
       73
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VTBB",
     "name": "Bangkok",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -87943,14 +87180,14 @@
     "labelPosition": [
       13.042771,
       101.083018
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VVVV",
     "name": "Hanoi",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -88523,14 +87760,14 @@
     "labelPosition": [
       20.2,
       106.075
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VVTS",
     "name": "Ho-Chi-Minh",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -88943,8 +88180,7 @@
     "labelPosition": [
       12.332245,
       108.396807
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "VYYF",
@@ -88953,6 +88189,7 @@
       "VYYY"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -89473,8 +88710,7 @@
     "labelPosition": [
       19.29099,
       96.592
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "WAAF",
@@ -89485,6 +88721,7 @@
       "WARR"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -89757,25 +88994,14 @@
     "labelPosition": [
       -2.916667,
       125.1
-    ],
-    "oceanic": false
-  },
-  {
-    "icao": "WABZ",
-    "name": "Biak",
-    "prefix": [
-      "WABF"
-    ],
-    "alias": [
-      "WAAF"
-    ],
-    "boundaries": []
+    ]
   },
   {
     "icao": "WBFC",
     "name": "Kota Kinabalu",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -90140,8 +89366,7 @@
     "labelPosition": [
       4.625,
       114.25
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "WIIF",
@@ -90150,6 +89375,7 @@
       "WIIZ"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -90394,14 +89620,14 @@
     "labelPosition": [
       -3,
       103.25
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "WMFC",
     "name": "Kuala Lumpur",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -90630,25 +89856,14 @@
     "labelPosition": [
       5.607951,
       99.582158
-    ],
-    "oceanic": false
-  },
-  {
-    "icao": "WRRZ",
-    "name": "Bali",
-    "prefix": [
-      "WRRF"
-    ],
-    "alias": [
-      "WAAF"
-    ],
-    "boundaries": []
+    ]
   },
   {
     "icao": "WSJC",
     "name": "Singapore",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -90777,902 +89992,7 @@
     "labelPosition": [
       4.833334,
       109.333334
-    ],
-    "oceanic": false
-  },
-  {
-    "icao": "YTSN",
-    "name": "Brisbane Oceanic-Tasman",
-    "prefix": [
-      "BN-TSN"
-    ],
-    "alias": [],
-    "boundaries": [
-      [
-        [
-          -36.945278,
-          150.750833
-        ],
-        [
-          -36.918976,
-          150.966769
-        ],
-        [
-          -36.88034,
-          151.17949
-        ],
-        [
-          -36.826667,
-          151.38692
-        ],
-        [
-          -36.7584,
-          151.587379
-        ],
-        [
-          -36.676093,
-          151.779251
-        ],
-        [
-          -36.580419,
-          151.961009
-        ],
-        [
-          -36.472152,
-          152.13122
-        ],
-        [
-          -36.352168,
-          152.288563
-        ],
-        [
-          -36.226667,
-          152.423056
-        ],
-        [
-          -36.491111,
-          153.813056
-        ],
-        [
-          -36.073678,
-          154.313717
-        ],
-        [
-          -35.590506,
-          154.711061
-        ],
-        [
-          -35.058,
-          154.994994
-        ],
-        [
-          -34.493094,
-          155.158822
-        ],
-        [
-          -33.913377,
-          155.199943
-        ],
-        [
-          -33.33653,
-          155.119604
-        ],
-        [
-          -32.779794,
-          154.922558
-        ],
-        [
-          -32.259504,
-          154.61667
-        ],
-        [
-          -31.790669,
-          154.212489
-        ],
-        [
-          -31.386621,
-          153.722836
-        ],
-        [
-          -31.130556,
-          153.308611
-        ],
-        [
-          -30.672222,
-          153.529444
-        ],
-        [
-          -29.820278,
-          153.716111
-        ],
-        [
-          -29.687499,
-          154.194733
-        ],
-        [
-          -29.488812,
-          154.640566
-        ],
-        [
-          -29.224623,
-          155.037995
-        ],
-        [
-          -28.903423,
-          155.374698
-        ],
-        [
-          -28.535443,
-          155.640591
-        ],
-        [
-          -28.132276,
-          155.828101
-        ],
-        [
-          -27.706479,
-          155.932319
-        ],
-        [
-          -27.271154,
-          155.951037
-        ],
-        [
-          -26.839539,
-          155.884687
-        ],
-        [
-          -26.424606,
-          155.736213
-        ],
-        [
-          -26.038698,
-          155.510872
-        ],
-        [
-          -25.693179,
-          155.216
-        ],
-        [
-          -25.39814,
-          154.860746
-        ],
-        [
-          -25.162139,
-          154.455783
-        ],
-        [
-          -24.991981,
-          154.013011
-        ],
-        [
-          -24.981944,
-          154
-        ],
-        [
-          -23.221667,
-          153.241667
-        ],
-        [
-          -22.255833,
-          152.047222
-        ],
-        [
-          -21.653333,
-          151.868889
-        ],
-        [
-          -19.270278,
-          151.178889
-        ],
-        [
-          -18.674167,
-          151.009722
-        ],
-        [
-          -16.971389,
-          151.075278
-        ],
-        [
-          -16.971389,
-          151.075278
-        ],
-        [
-          -16.166389,
-          151.105833
-        ],
-        [
-          -12,
-          148.573333
-        ],
-        [
-          -12,
-          155
-        ],
-        [
-          -14,
-          155
-        ],
-        [
-          -14,
-          161.25
-        ],
-        [
-          -16.971389,
-          162.6625
-        ],
-        [
-          -17.666667,
-          163
-        ],
-        [
-          -26.816389,
-          163
-        ],
-        [
-          -33.266667,
-          163
-        ],
-        [
-          -45,
-          163
-        ],
-        [
-          -45,
-          150
-        ],
-        [
-          -44.565833,
-          150
-        ],
-        [
-          -43.850833,
-          150.664722
-        ],
-        [
-          -43,
-          151
-        ],
-        [
-          -38.188611,
-          150.320556
-        ]
-      ]
-    ],
-    "country": "Australia",
-    "labelPosition": [
-      -38.158707,
-      157.389245
-    ],
-    "oceanic": true
-  },
-  {
-    "icao": "YCOL",
-    "name": "Brisbane Oceanic-Coral Sea",
-    "prefix": [
-      "BN-COL"
-    ],
-    "alias": [],
-    "boundaries": [
-      [
-        [
-          -12,
-          155
-        ],
-        [
-          -14,
-          155
-        ],
-        [
-          -14,
-          161.25
-        ],
-        [
-          -16.971389,
-          162.6625
-        ],
-        [
-          -16.971389,
-          151.075278
-        ],
-        [
-          -16.166389,
-          151.105833
-        ],
-        [
-          -12,
-          148.573333
-        ]
-      ]
-    ],
-    "country": "Australia",
-    "labelPosition": [
-      -15.477509,
-      154.31667
-    ],
-    "oceanic": true
-  },
-  {
-    "icao": "YFLD",
-    "name": "Brisbane Oceanic-Flinders",
-    "prefix": [
-      "BN-FLD"
-    ],
-    "alias": [],
-    "boundaries": [
-      [
-        [
-          -16.971389,
-          162.6625
-        ],
-        [
-          -17.666667,
-          163
-        ],
-        [
-          -26.816389,
-          163
-        ],
-        [
-          -26.960556,
-          155.905278
-        ],
-        [
-          -26.746653,
-          155.859002
-        ],
-        [
-          -26.538643,
-          155.785909
-        ],
-        [
-          -26.337059,
-          155.693141
-        ],
-        [
-          -26.143394,
-          155.581484
-        ],
-        [
-          -25.959077,
-          155.451853
-        ],
-        [
-          -25.785461,
-          155.305276
-        ],
-        [
-          -25.623816,
-          155.142895
-        ],
-        [
-          -25.475321,
-          154.965951
-        ],
-        [
-          -25.341053,
-          154.775776
-        ],
-        [
-          -25.221985,
-          154.573784
-        ],
-        [
-          -25.118977,
-          154.361464
-        ],
-        [
-          -25.03277,
-          154.140364
-        ],
-        [
-          -24.981944,
-          154
-        ],
-        [
-          -23.221667,
-          153.241667
-        ],
-        [
-          -22.255833,
-          152.047222
-        ],
-        [
-          -21.653333,
-          151.868889
-        ],
-        [
-          -19.270278,
-          151.178889
-        ],
-        [
-          -18.674167,
-          151.009722
-        ],
-        [
-          -16.971389,
-          151.075278
-        ]
-      ]
-    ],
-    "country": "Australia",
-    "labelPosition": [
-      -21.856842,
-      157.87379
-    ],
-    "oceanic": true
-  },
-  {
-    "icao": "YHWE",
-    "name": "Brisbane Oceanic-Lord Howe",
-    "prefix": [
-      "BN-HWE"
-    ],
-    "alias": [],
-    "boundaries": [
-      [
-        [
-          -29.820278,
-          153.716111
-        ],
-        [
-          -29.760179,
-          153.958032
-        ],
-        [
-          -29.687499,
-          154.194733
-        ],
-        [
-          -29.596797,
-          154.422852
-        ],
-        [
-          -29.488812,
-          154.640566
-        ],
-        [
-          -29.364419,
-          154.84615
-        ],
-        [
-          -29.224623,
-          155.037995
-        ],
-        [
-          -29.070546,
-          155.214624
-        ],
-        [
-          -28.903423,
-          155.374698
-        ],
-        [
-          -28.724584,
-          155.51703
-        ],
-        [
-          -28.535443,
-          155.640591
-        ],
-        [
-          -28.337491,
-          155.744514
-        ],
-        [
-          -28.132276,
-          155.828101
-        ],
-        [
-          -27.921396,
-          155.890823
-        ],
-        [
-          -27.706479,
-          155.932319
-        ],
-        [
-          -27.489179,
-          155.952399
-        ],
-        [
-          -27.271154,
-          155.951037
-        ],
-        [
-          -27.054061,
-          155.928368
-        ],
-        [
-          -26.960556,
-          155.905278
-        ],
-        [
-          -26.816389,
-          163
-        ],
-        [
-          -33.266667,
-          163
-        ],
-        [
-          -33.908056,
-          155.188333
-        ],
-        [
-          -33.617928,
-          155.173953
-        ],
-        [
-          -33.331034,
-          155.118249
-        ],
-        [
-          -33.049223,
-          155.033336
-        ],
-        [
-          -32.774574,
-          154.920111
-        ],
-        [
-          -32.509094,
-          154.779657
-        ],
-        [
-          -32.25471,
-          154.61322
-        ],
-        [
-          -32.013251,
-          154.422203
-        ],
-        [
-          -31.78644,
-          154.20815
-        ],
-        [
-          -31.575887,
-          153.972733
-        ],
-        [
-          -31.383076,
-          153.71774
-        ],
-        [
-          -31.209357,
-          153.445064
-        ],
-        [
-          -31.130556,
-          153.308611
-        ],
-        [
-          -30.672222,
-          153.529444
-        ]
-      ]
-    ],
-    "country": "Australia",
-    "labelPosition": [
-      -30.116177,
-      158.714616
-    ],
-    "oceanic": true
-  },
-  {
-    "icao": "YIND",
-    "name": "Melbourne Oceanic-Indian",
-    "prefix": [
-      "ML-IND"
-    ],
-    "alias": [],
-    "boundaries": [
-      [
-        [
-          -2,
-          78
-        ],
-        [
-          -2,
-          92
-        ],
-        [
-          -9,
-          102.340556
-        ],
-        [
-          -12,
-          107
-        ],
-        [
-          -12,
-          114.5
-        ],
-        [
-          -14.136944,
-          115.142222
-        ],
-        [
-          -17.619722,
-          118.759444
-        ],
-        [
-          -18.799722,
-          115.562222
-        ],
-        [
-          -19.51,
-          113.523056
-        ],
-        [
-          -21.833333,
-          111.5
-        ],
-        [
-          -25.420278,
-          112.018611
-        ],
-        [
-          -27.5,
-          112.333611
-        ],
-        [
-          -31.263333,
-          112.940278
-        ],
-        [
-          -31.488011,
-          112.870876
-        ],
-        [
-          -31.718192,
-          112.831981
-        ],
-        [
-          -31.95038,
-          112.816656
-        ],
-        [
-          -32.182821,
-          112.825197
-        ],
-        [
-          -32.413743,
-          112.85772
-        ],
-        [
-          -32.641375,
-          112.914159
-        ],
-        [
-          -32.863957,
-          112.994261
-        ],
-        [
-          -33.079753,
-          113.097578
-        ],
-        [
-          -33.287069,
-          113.223469
-        ],
-        [
-          -33.484264,
-          113.371099
-        ],
-        [
-          -33.669764,
-          113.539439
-        ],
-        [
-          -33.842081,
-          113.727272
-        ],
-        [
-          -33.999821,
-          113.933196
-        ],
-        [
-          -34.141699,
-          114.155637
-        ],
-        [
-          -34.186944,
-          114.233056
-        ],
-        [
-          -36.416667,
-          116.666667
-        ],
-        [
-          -36.72,
-          120
-        ],
-        [
-          -37.177222,
-          125.081667
-        ],
-        [
-          -42.35,
-          141
-        ],
-        [
-          -43.73,
-          145.863333
-        ],
-        [
-          -43.520833,
-          149.358333
-        ],
-        [
-          -43.850833,
-          150.664722
-        ],
-        [
-          -44.565833,
-          150
-        ],
-        [
-          -45,
-          150
-        ],
-        [
-          -45,
-          163
-        ],
-        [
-          -90,
-          163
-        ],
-        [
-          -90,
-          120
-        ],
-        [
-          -90,
-          75
-        ],
-        [
-          -6,
-          75
-        ]
-      ]
-    ],
-    "country": "Australia",
-    "labelPosition": [
-      -23.902742,
-      93.067652
-    ],
-    "oceanic": true
-  },
-  {
-    "icao": "YINE",
-    "name": "Melbourne Oceanic-Indian East",
-    "prefix": [
-      "ML-INE"
-    ],
-    "alias": [],
-    "boundaries": [
-      [
-        [
-          -9,
-          102.340556
-        ],
-        [
-          -12,
-          107
-        ],
-        [
-          -12,
-          114.5
-        ],
-        [
-          -14.136944,
-          115.142222
-        ],
-        [
-          -17.619722,
-          118.759444
-        ],
-        [
-          -18.799722,
-          115.562222
-        ],
-        [
-          -19.51,
-          113.523056
-        ],
-        [
-          -21.833333,
-          111.5
-        ],
-        [
-          -25.420278,
-          112.018611
-        ],
-        [
-          -25,
-          110
-        ],
-        [
-          -17.266667,
-          105
-        ],
-        [
-          -10.983333,
-          102.966667
-        ]
-      ]
-    ],
-    "country": "Australia",
-    "labelPosition": [
-      -15.941451,
-      109.158525
-    ],
-    "oceanic": true
-  },
-  {
-    "icao": "YINS",
-    "name": "Melbourne Oceanic-Indian South",
-    "prefix": [
-      "ML-INS"
-    ],
-    "alias": [],
-    "boundaries": [
-      [
-        [
-          -37.177222,
-          125.081667
-        ],
-        [
-          -42.35,
-          141
-        ],
-        [
-          -43.73,
-          145.863333
-        ],
-        [
-          -43.520833,
-          149.358333
-        ],
-        [
-          -43.850833,
-          150.664722
-        ],
-        [
-          -44.565833,
-          150
-        ],
-        [
-          -45,
-          150
-        ],
-        [
-          -45,
-          163
-        ],
-        [
-          -90,
-          163
-        ],
-        [
-          -90,
-          120
-        ],
-        [
-          -36.72,
-          120
-        ]
-      ]
-    ],
-    "country": "Australia",
-    "labelPosition": [
-      -50.365426,
-      139.999596
-    ],
-    "oceanic": true
+    ]
   },
   {
     "icao": "YBKE",
@@ -91681,6 +90001,7 @@
       "ML-BKE"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -91857,8 +90178,7 @@
     "labelPosition": [
       -31.823119,
       144.993866
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YWRA",
@@ -91867,6 +90187,7 @@
       "ML-WRA"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -92011,8 +90332,7 @@
     "labelPosition": [
       -30.420429,
       139.160736
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YGTH",
@@ -92021,6 +90341,7 @@
       "ML-GTH"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -92085,8 +90406,7 @@
     "labelPosition": [
       -34.213083,
       146.796663
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YBIK",
@@ -92095,6 +90415,7 @@
       "ML-BIK"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -92359,8 +90680,7 @@
     "labelPosition": [
       -34.513566,
       149.434312
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YKAT",
@@ -92369,6 +90689,7 @@
       "ML-KAT"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -92513,8 +90834,7 @@
     "labelPosition": [
       -33.417685,
       149.504314
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YWOL",
@@ -92523,6 +90843,7 @@
       "ML-WOL"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -92867,8 +91188,7 @@
     "labelPosition": [
       -35.756651,
       151.303522
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YSNO",
@@ -92877,6 +91197,7 @@
       "ML-SNO"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -93225,8 +91546,7 @@
     "labelPosition": [
       -38.54397,
       149.014971
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YELW",
@@ -93235,6 +91555,7 @@
       "ML-ELW"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -93427,8 +91748,7 @@
     "labelPosition": [
       -37.144934,
       145.90372
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YHUM",
@@ -93437,6 +91757,7 @@
       "ML-HUM"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -93677,8 +91998,7 @@
     "labelPosition": [
       -36.230308,
       147.34966
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YYWE",
@@ -93687,6 +92007,7 @@
       "ML-YWE"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -93863,8 +92184,7 @@
     "labelPosition": [
       -37.810595,
       143.53974
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YWON",
@@ -93873,6 +92193,7 @@
       "ML-WON"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -94057,8 +92378,7 @@
     "labelPosition": [
       -39.30079,
       145.96719
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YTAS",
@@ -94067,6 +92387,7 @@
       "ML-TAS"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -94227,8 +92548,7 @@
     "labelPosition": [
       -42.079836,
       146.469407
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YTBD",
@@ -94237,6 +92557,7 @@
       "ML-TBD"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -94477,8 +92798,7 @@
     "labelPosition": [
       -35.450637,
       139.939612
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YAUG",
@@ -94487,6 +92807,7 @@
       "ML-AUG"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -94695,8 +93016,7 @@
     "labelPosition": [
       -33.90348,
       136.950344
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YOXL",
@@ -94705,6 +93025,7 @@
       "ML-OXL"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -94777,8 +93098,7 @@
     "labelPosition": [
       -34.542036,
       144.787212
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YMUN",
@@ -94787,6 +93107,7 @@
       "ML-MUN"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -94947,8 +93268,7 @@
     "labelPosition": [
       -37.425228,
       141.482768
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YASP",
@@ -94957,6 +93277,7 @@
       "ML-ASP"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -95085,8 +93406,7 @@
     "labelPosition": [
       -26.114961,
       132.742797
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YFOR",
@@ -95095,6 +93415,7 @@
       "ML-FOR"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -95179,8 +93500,7 @@
     "labelPosition": [
       -34.87099,
       130.542438
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YWAR",
@@ -95189,6 +93509,7 @@
       "ML-WAR"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -95237,8 +93558,7 @@
     "labelPosition": [
       -26.840631,
       126.389564
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YESP",
@@ -95247,6 +93567,7 @@
       "ML-ESP"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -95383,8 +93704,7 @@
     "labelPosition": [
       -32.986496,
       122.289883
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YLEA",
@@ -95393,6 +93713,7 @@
       "ML-LEA"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -95581,8 +93902,7 @@
     "labelPosition": [
       -31.245552,
       114.106715
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YGVE",
@@ -95591,6 +93911,7 @@
       "ML-GVE"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -95663,8 +93984,7 @@
     "labelPosition": [
       -29.400174,
       117.804804
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YPIY",
@@ -95673,6 +93993,7 @@
       "ML-PIY"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -95841,8 +94162,7 @@
     "labelPosition": [
       -32.066661,
       117.10739
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YCRS",
@@ -95851,6 +94171,7 @@
       "ML-CRS"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -95895,8 +94216,7 @@
     "labelPosition": [
       -30.938281,
       118.888494
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YHYD",
@@ -95905,6 +94225,7 @@
       "ML-HYD"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -95977,8 +94298,7 @@
     "labelPosition": [
       -32.806879,
       119.065568
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YJAR",
@@ -95987,6 +94307,7 @@
       "ML-JAR"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -96119,8 +94440,7 @@
     "labelPosition": [
       -34.549098,
       116.93032
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YMOR",
@@ -96129,6 +94449,7 @@
       "ML-MOR"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -96173,8 +94494,7 @@
     "labelPosition": [
       -27.688545,
       121.513282
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YTFR",
@@ -96183,6 +94503,7 @@
       "ML-TFR"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -96219,8 +94540,7 @@
     "labelPosition": [
       -23.821989,
       123.397715
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YGEL",
@@ -96229,6 +94549,7 @@
       "ML-GEL"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -96309,8 +94630,7 @@
     "labelPosition": [
       -28.73516,
       114.263405
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YBIL",
@@ -96319,6 +94639,7 @@
       "ML-BIL"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -96387,8 +94708,7 @@
     "labelPosition": [
       -25.537334,
       115.847496
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YORE",
@@ -96397,6 +94717,7 @@
       "ML-ORE"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -96481,8 +94802,7 @@
     "labelPosition": [
       -21.510109,
       114.353878
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YMDE",
@@ -96491,6 +94811,7 @@
       "BN-MDE"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -96787,8 +95108,7 @@
     "labelPosition": [
       -30.453293,
       149.555574
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YARM",
@@ -96797,6 +95117,7 @@
       "BN-ARM"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -96869,8 +95190,7 @@
     "labelPosition": [
       -31.612897,
       151.263989
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YMLD",
@@ -96879,6 +95199,7 @@
       "BN-MLD"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -97007,178 +95328,7 @@
     "labelPosition": [
       -32.079082,
       152.413991
-    ],
-    "oceanic": false
-  },
-  {
-    "icao": "YOCN",
-    "name": "Brisbane (Ocean)",
-    "prefix": [
-      "BN-OCN"
-    ],
-    "alias": [],
-    "boundaries": [
-      [
-        [
-          -31.130556,
-          153.308611
-        ],
-        [
-          -31.480202,
-          153.851564
-        ],
-        [
-          -31.90147,
-          154.321309
-        ],
-        [
-          -32.38439,
-          154.702209
-        ],
-        [
-          -32.915184,
-          154.981971
-        ],
-        [
-          -33.478478,
-          155.150671
-        ],
-        [
-          -34.057671,
-          155.201179
-        ],
-        [
-          -34.635367,
-          155.129576
-        ],
-        [
-          -35.193858,
-          154.935541
-        ],
-        [
-          -35.715661,
-          154.622674
-        ],
-        [
-          -36.184098,
-          154.198706
-        ],
-        [
-          -36.491111,
-          153.813056
-        ],
-        [
-          -36.226667,
-          152.423056
-        ],
-        [
-          -36.088064,
-          152.554076
-        ],
-        [
-          -35.939422,
-          152.666948
-        ],
-        [
-          -35.783308,
-          152.762993
-        ],
-        [
-          -35.620952,
-          152.841558
-        ],
-        [
-          -35.45362,
-          152.902139
-        ],
-        [
-          -35.316389,
-          152.930556
-        ],
-        [
-          -34.472778,
-          151.824722
-        ],
-        [
-          -34.424623,
-          151.878401
-        ],
-        [
-          -34.372478,
-          151.926293
-        ],
-        [
-          -34.317071,
-          151.968438
-        ],
-        [
-          -34.258832,
-          152.004523
-        ],
-        [
-          -34.198208,
-          152.034282
-        ],
-        [
-          -34.135665,
-          152.057502
-        ],
-        [
-          -34.071683,
-          152.074019
-        ],
-        [
-          -34.006751,
-          152.083721
-        ],
-        [
-          -33.941366,
-          152.086551
-        ],
-        [
-          -33.876026,
-          152.082502
-        ],
-        [
-          -33.811225,
-          152.071622
-        ],
-        [
-          -33.747457,
-          152.054008
-        ],
-        [
-          -33.685204,
-          152.029807
-        ],
-        [
-          -33.624934,
-          151.999217
-        ],
-        [
-          -33.567104,
-          151.962482
-        ],
-        [
-          -33.512146,
-          151.919888
-        ],
-        [
-          -33.501111,
-          151.909167
-        ],
-        [
-          -32.883611,
-          152.441944
-        ]
-      ]
-    ],
-    "country": "Australia",
-    "labelPosition": [
-      -33.734848,
-      153.415611
-    ],
-    "oceanic": true
+    ]
   },
   {
     "icao": "YCVN",
@@ -97187,6 +95337,7 @@
       "BN-CVN"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -97295,8 +95446,7 @@
     "labelPosition": [
       -25.095498,
       149.004499
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YDOS",
@@ -97305,6 +95455,7 @@
       "BN-DOS"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -97581,8 +95732,7 @@
     "labelPosition": [
       -27.77642,
       151.627707
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YGRN",
@@ -97591,6 +95741,7 @@
       "BN-GRN"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -97827,8 +95978,7 @@
     "labelPosition": [
       -29.147664,
       152.809371
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YBUR",
@@ -97837,6 +95987,7 @@
       "BN-BUR"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -98005,8 +96156,7 @@
     "labelPosition": [
       -26.274857,
       152.573363
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YKPL",
@@ -98015,6 +96165,7 @@
       "BN-KPL"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -98179,8 +96330,7 @@
     "labelPosition": [
       -23.801825,
       151.86536
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YSDY",
@@ -98189,6 +96339,7 @@
       "BN-SDY"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -98317,8 +96468,7 @@
     "labelPosition": [
       -27.474185,
       154.783212
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YTBP",
@@ -98327,6 +96477,7 @@
       "BN-TBP"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -98479,8 +96630,7 @@
     "labelPosition": [
       -18.36026,
       148.500183
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YSWY",
@@ -98489,6 +96639,7 @@
       "BN-SWY"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -98605,8 +96756,7 @@
     "labelPosition": [
       -21.723564,
       148.2994
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YKEN",
@@ -98615,6 +96765,7 @@
       "BN-KEN"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -98751,8 +96902,7 @@
     "labelPosition": [
       -17.84658,
       144.900158
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YBAR",
@@ -98761,6 +96911,7 @@
       "BN-BAR"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -98909,8 +97060,7 @@
     "labelPosition": [
       -15.627515,
       145.812514
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YARA",
@@ -98919,6 +97069,7 @@
       "BN-ARA"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -99231,8 +97382,7 @@
     "labelPosition": [
       -12.397883,
       139.202342
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YTRT",
@@ -99241,6 +97391,7 @@
       "BN-TRT"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -99441,8 +97592,7 @@
     "labelPosition": [
       -13.796825,
       131.70158
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YKIY",
@@ -99451,6 +97601,7 @@
       "BN-KIY"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -99619,8 +97770,7 @@
     "labelPosition": [
       -17.77028,
       125.608865
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YSTR",
@@ -99629,6 +97779,7 @@
       "BN-STR"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -99765,8 +97916,7 @@
     "labelPosition": [
       -18.694395,
       134.889028
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YISA",
@@ -99775,6 +97925,7 @@
       "BN-ISA"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -99931,8 +98082,7 @@
     "labelPosition": [
       -19.225629,
       140.388607
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "YWEG",
@@ -99941,6 +98091,7 @@
       "BN-WEG"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -100001,14 +98152,14 @@
     "labelPosition": [
       -26.482729,
       143.189324
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ZBPE",
     "name": "Beijing",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -100297,14 +98448,14 @@
     "labelPosition": [
       39.984014,
       112.614584
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ZHCC",
     "name": "Zhengzhou ACC - Wuhan",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -100353,14 +98504,14 @@
     "labelPosition": [
       33.5,
       112.650833
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ZHHH",
     "name": "Wuhan ACC - Wuhan",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -100401,14 +98552,14 @@
     "labelPosition": [
       30.5,
       112.650833
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ZHWH",
     "name": "Wuhan",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -100469,14 +98620,14 @@
     "labelPosition": [
       32.3,
       112.650833
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ZGZU",
     "name": "Guangzhou",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -100977,14 +99128,14 @@
     "labelPosition": [
       23.366667,
       111.520834
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ZJSA",
     "name": "Sanya",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -101033,14 +99184,14 @@
     "labelPosition": [
       18,
       110.5
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ZKKP",
     "name": "Pyongyang",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -101485,14 +99636,14 @@
     "labelPosition": [
       40.319095,
       129.96421
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ZLHW",
     "name": "Lanzhou",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -101665,14 +99816,14 @@
     "labelPosition": [
       37.366667,
       99.125
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ZPKM",
     "name": "Kunming",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -102561,8 +100712,7 @@
     "labelPosition": [
       30.783333,
       95.570833
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ZSHA",
@@ -102571,6 +100721,7 @@
       "ZSSS"
     ],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -102671,14 +100822,14 @@
     "labelPosition": [
       30.625,
       118.975
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ZWUQ",
     "name": "Urumqi",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -103771,14 +101922,14 @@
     "labelPosition": [
       39.616667,
       84.968611
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ZYSH",
     "name": "Shenyang",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -105619,14 +103770,14 @@
     "labelPosition": [
       45.775,
       125.060417
-    ],
-    "oceanic": false
+    ]
   },
   {
     "icao": "ZMBZ",
     "name": "Ulaanbaatar",
     "prefix": [],
     "alias": [],
+    "oceanic": false,
     "boundaries": [
       [
         [
@@ -106811,7 +104962,1616 @@
     "labelPosition": [
       46.845,
       103.85
+    ]
+  },
+  {
+    "icao": "CZQX Oceanic",
+    "name": "Gander",
+    "prefix": [
+      "GAND",
+      "YQX",
+      "GAN"
     ],
-    "oceanic": false
+    "alias": [],
+    "oceanic": true,
+    "boundaries": [
+      [
+        [
+          45,
+          -30
+        ],
+        [
+          45,
+          -51
+        ],
+        [
+          49,
+          -51
+        ],
+        [
+          53,
+          -54
+        ],
+        [
+          57,
+          -59
+        ],
+        [
+          58.471111,
+          -60.351111
+        ],
+        [
+          61,
+          -63
+        ],
+        [
+          64,
+          -63
+        ],
+        [
+          65,
+          -60
+        ],
+        [
+          65,
+          -57.75
+        ],
+        [
+          63.5,
+          -55.666667
+        ],
+        [
+          63.5,
+          -39
+        ],
+        [
+          61,
+          -30
+        ]
+      ],
+      [
+        [
+          61,
+          -30
+        ],
+        [
+          61,
+          -10
+        ],
+        [
+          57,
+          -10
+        ],
+        [
+          57,
+          -15
+        ],
+        [
+          49,
+          -15
+        ],
+        [
+          48.493611,
+          -8
+        ],
+        [
+          45,
+          -8
+        ],
+        [
+          45,
+          -30
+        ]
+      ]
+    ],
+    "country": "Canada",
+    "labelPosition": [
+      55,
+      -46.5
+    ]
+  },
+  {
+    "icao": "GOOO Oceanic",
+    "name": "Dakar",
+    "prefix": [],
+    "alias": [],
+    "oceanic": true,
+    "boundaries": [
+      [
+        [
+          16.999167,
+          -37.5
+        ],
+        [
+          12.966111,
+          -21.366389
+        ],
+        [
+          8.999722,
+          -16.916389
+        ],
+        [
+          0.000556,
+          -7.333056
+        ],
+        [
+          -1.848889,
+          -2.999444
+        ],
+        [
+          -9.531389,
+          -2.999444
+        ],
+        [
+          -11.998056,
+          -9.999722
+        ],
+        [
+          -6.365,
+          -9.999722
+        ],
+        [
+          -6.365278,
+          -15.999722
+        ],
+        [
+          7.666667,
+          -35
+        ],
+        [
+          13.499444,
+          -37.5
+        ]
+      ]
+    ],
+    "country": "Senegal",
+    "labelPosition": [
+      2.500555,
+      -20.249722
+    ]
+  },
+  {
+    "icao": "KZHU Oceanic",
+    "name": "Houston",
+    "prefix": [
+      "HOU",
+      "ZHU"
+    ],
+    "alias": [],
+    "oceanic": true,
+    "boundaries": [
+      [
+        [
+          26,
+          -95.916667
+        ],
+        [
+          27.533333,
+          -95.15
+        ],
+        [
+          28.25,
+          -94
+        ],
+        [
+          28.25,
+          -89
+        ],
+        [
+          28.141667,
+          -88
+        ],
+        [
+          27.5,
+          -87.683333
+        ],
+        [
+          27.5,
+          -86
+        ],
+        [
+          27.5,
+          -85.22
+        ],
+        [
+          26.9926,
+          -85.98524
+        ],
+        [
+          26.2,
+          -85.07
+        ],
+        [
+          24,
+          -85
+        ],
+        [
+          24,
+          -86
+        ],
+        [
+          24.5,
+          -88
+        ],
+        [
+          24.5,
+          -93
+        ]
+      ]
+    ],
+    "country": "USA",
+    "labelPosition": [
+      26.125,
+      -90.958334
+    ]
+  },
+  {
+    "icao": "MMZT Oceanic",
+    "name": "Mazatlan",
+    "prefix": [
+      "MZT",
+      "MMMZ"
+    ],
+    "alias": [],
+    "oceanic": true,
+    "boundaries": [
+      [
+        [
+          30,
+          -120
+        ],
+        [
+          27.925,
+          -117.49
+        ],
+        [
+          23.893056,
+          -113.00388
+        ],
+        [
+          21.408333,
+          -110.62972
+        ],
+        [
+          19.039167,
+          -108.49861
+        ],
+        [
+          16.183333,
+          -106
+        ],
+        [
+          15,
+          -105
+        ],
+        [
+          11.5,
+          -100
+        ],
+        [
+          10,
+          -104.5
+        ],
+        [
+          5,
+          -120
+        ]
+      ]
+    ],
+    "country": "Mexico",
+    "labelPosition": [
+      17.5,
+      -114
+    ]
+  },
+  {
+    "icao": "NFFF Oceanic",
+    "name": "Nadi Oceanic",
+    "prefix": [],
+    "alias": [],
+    "oceanic": true,
+    "boundaries": [
+      [
+        [
+          -10,
+          170
+        ],
+        [
+          -14,
+          163
+        ],
+        [
+          -14,
+          161.25
+        ],
+        [
+          -17.666667,
+          163
+        ],
+        [
+          -30,
+          163
+        ],
+        [
+          -28,
+          168
+        ],
+        [
+          -25,
+          171.416667
+        ],
+        [
+          -25,
+          180
+        ],
+        [
+          -5,
+          180
+        ],
+        [
+          3.5,
+          180
+        ],
+        [
+          3.5,
+          170
+        ]
+      ],
+      [
+        [
+          -5,
+          -171.166667
+        ],
+        [
+          -5,
+          -180
+        ],
+        [
+          -25,
+          -180
+        ],
+        [
+          -13.9189,
+          -175.1063
+        ]
+      ]
+    ],
+    "country": "Fiji-Tonga",
+    "labelPosition": [
+      -13.25,
+      2.44685
+    ]
+  },
+  {
+    "icao": "NZCM Oceanic",
+    "name": "McMurdo",
+    "prefix": [],
+    "alias": [],
+    "oceanic": true,
+    "boundaries": [
+      [
+        [
+          -60,
+          -180
+        ],
+        [
+          -60,
+          -131
+        ],
+        [
+          -90,
+          -131
+        ],
+        [
+          -90,
+          -180
+        ]
+      ]
+    ],
+    "country": "New Zealand",
+    "labelPosition": [
+      -65,
+      -160.5
+    ]
+  },
+  {
+    "icao": "SUEO Oceanic",
+    "name": "Montevideo",
+    "prefix": [],
+    "alias": [],
+    "oceanic": true,
+    "boundaries": [
+      [
+        [
+          -34,
+          -51.555556
+        ],
+        [
+          -34,
+          -42
+        ],
+        [
+          -34,
+          -10
+        ],
+        [
+          -39,
+          -10
+        ],
+        [
+          -39,
+          -44.5
+        ],
+        [
+          -40,
+          -45
+        ],
+        [
+          -36.758333,
+          -53.196389
+        ]
+      ]
+    ],
+    "country": "Uruguay",
+    "labelPosition": [
+      -37,
+      -31.6
+    ]
+  },
+  {
+    "icao": "ULMM Oceanic",
+    "name": "Murmansk",
+    "prefix": [],
+    "alias": [],
+    "oceanic": true,
+    "boundaries": [
+      [
+        [
+          90,
+          32
+        ],
+        [
+          90,
+          168.973333
+        ],
+        [
+          78,
+          114.75
+        ],
+        [
+          77.333333,
+          89.5
+        ],
+        [
+          75.333333,
+          81.833333
+        ],
+        [
+          74.5,
+          70.683333
+        ],
+        [
+          73.666667,
+          70.916667
+        ],
+        [
+          73.666667,
+          68.666667
+        ],
+        [
+          71.5,
+          66.37244
+        ],
+        [
+          71.166667,
+          57.65
+        ],
+        [
+          73.9,
+          58
+        ],
+        [
+          73,
+          48.616667
+        ],
+        [
+          70.5,
+          49.5
+        ],
+        [
+          68.666667,
+          43.266667
+        ],
+        [
+          71.5,
+          32.083333
+        ],
+        [
+          74,
+          32.083333
+        ],
+        [
+          74,
+          35
+        ],
+        [
+          81,
+          35
+        ],
+        [
+          81,
+          32
+        ]
+      ]
+    ],
+    "country": "Russia",
+    "labelPosition": [
+      81.5,
+      68.858334
+    ]
+  },
+  {
+    "icao": "YTSN Oceanic",
+    "name": "Brisbane Oceanic-Tasman",
+    "prefix": [
+      "BN-TSN"
+    ],
+    "alias": [],
+    "oceanic": true,
+    "boundaries": [
+      [
+        [
+          -36.945278,
+          150.750833
+        ],
+        [
+          -36.918976,
+          150.966769
+        ],
+        [
+          -36.88034,
+          151.17949
+        ],
+        [
+          -36.826667,
+          151.38692
+        ],
+        [
+          -36.7584,
+          151.587379
+        ],
+        [
+          -36.676093,
+          151.779251
+        ],
+        [
+          -36.580419,
+          151.961009
+        ],
+        [
+          -36.472152,
+          152.13122
+        ],
+        [
+          -36.352168,
+          152.288563
+        ],
+        [
+          -36.226667,
+          152.423056
+        ],
+        [
+          -36.491111,
+          153.813056
+        ],
+        [
+          -36.073678,
+          154.313717
+        ],
+        [
+          -35.590506,
+          154.711061
+        ],
+        [
+          -35.058,
+          154.994994
+        ],
+        [
+          -34.493094,
+          155.158822
+        ],
+        [
+          -33.913377,
+          155.199943
+        ],
+        [
+          -33.33653,
+          155.119604
+        ],
+        [
+          -32.779794,
+          154.922558
+        ],
+        [
+          -32.259504,
+          154.61667
+        ],
+        [
+          -31.790669,
+          154.212489
+        ],
+        [
+          -31.386621,
+          153.722836
+        ],
+        [
+          -31.130556,
+          153.308611
+        ],
+        [
+          -30.672222,
+          153.529444
+        ],
+        [
+          -29.820278,
+          153.716111
+        ],
+        [
+          -29.687499,
+          154.194733
+        ],
+        [
+          -29.488812,
+          154.640566
+        ],
+        [
+          -29.224623,
+          155.037995
+        ],
+        [
+          -28.903423,
+          155.374698
+        ],
+        [
+          -28.535443,
+          155.640591
+        ],
+        [
+          -28.132276,
+          155.828101
+        ],
+        [
+          -27.706479,
+          155.932319
+        ],
+        [
+          -27.271154,
+          155.951037
+        ],
+        [
+          -26.839539,
+          155.884687
+        ],
+        [
+          -26.424606,
+          155.736213
+        ],
+        [
+          -26.038698,
+          155.510872
+        ],
+        [
+          -25.693179,
+          155.216
+        ],
+        [
+          -25.39814,
+          154.860746
+        ],
+        [
+          -25.162139,
+          154.455783
+        ],
+        [
+          -24.991981,
+          154.013011
+        ],
+        [
+          -24.981944,
+          154
+        ],
+        [
+          -23.221667,
+          153.241667
+        ],
+        [
+          -22.255833,
+          152.047222
+        ],
+        [
+          -21.653333,
+          151.868889
+        ],
+        [
+          -19.270278,
+          151.178889
+        ],
+        [
+          -18.674167,
+          151.009722
+        ],
+        [
+          -16.971389,
+          151.075278
+        ],
+        [
+          -16.971389,
+          151.075278
+        ],
+        [
+          -16.166389,
+          151.105833
+        ],
+        [
+          -12,
+          148.573333
+        ],
+        [
+          -12,
+          155
+        ],
+        [
+          -14,
+          155
+        ],
+        [
+          -14,
+          161.25
+        ],
+        [
+          -16.971389,
+          162.6625
+        ],
+        [
+          -17.666667,
+          163
+        ],
+        [
+          -26.816389,
+          163
+        ],
+        [
+          -33.266667,
+          163
+        ],
+        [
+          -45,
+          163
+        ],
+        [
+          -45,
+          150
+        ],
+        [
+          -44.565833,
+          150
+        ],
+        [
+          -43.850833,
+          150.664722
+        ],
+        [
+          -43,
+          151
+        ],
+        [
+          -38.188611,
+          150.320556
+        ]
+      ]
+    ],
+    "country": "Australia",
+    "labelPosition": [
+      -38.158707,
+      157.389245
+    ]
+  },
+  {
+    "icao": "YCOL Oceanic",
+    "name": "Brisbane Oceanic-Coral Sea",
+    "prefix": [
+      "BN-COL"
+    ],
+    "alias": [],
+    "oceanic": true,
+    "boundaries": [
+      [
+        [
+          -12,
+          155
+        ],
+        [
+          -14,
+          155
+        ],
+        [
+          -14,
+          161.25
+        ],
+        [
+          -16.971389,
+          162.6625
+        ],
+        [
+          -16.971389,
+          151.075278
+        ],
+        [
+          -16.166389,
+          151.105833
+        ],
+        [
+          -12,
+          148.573333
+        ]
+      ]
+    ],
+    "country": "Australia",
+    "labelPosition": [
+      -15.477509,
+      154.31667
+    ]
+  },
+  {
+    "icao": "YFLD Oceanic",
+    "name": "Brisbane Oceanic-Flinders",
+    "prefix": [
+      "BN-FLD"
+    ],
+    "alias": [],
+    "oceanic": true,
+    "boundaries": [
+      [
+        [
+          -16.971389,
+          162.6625
+        ],
+        [
+          -17.666667,
+          163
+        ],
+        [
+          -26.816389,
+          163
+        ],
+        [
+          -26.960556,
+          155.905278
+        ],
+        [
+          -26.746653,
+          155.859002
+        ],
+        [
+          -26.538643,
+          155.785909
+        ],
+        [
+          -26.337059,
+          155.693141
+        ],
+        [
+          -26.143394,
+          155.581484
+        ],
+        [
+          -25.959077,
+          155.451853
+        ],
+        [
+          -25.785461,
+          155.305276
+        ],
+        [
+          -25.623816,
+          155.142895
+        ],
+        [
+          -25.475321,
+          154.965951
+        ],
+        [
+          -25.341053,
+          154.775776
+        ],
+        [
+          -25.221985,
+          154.573784
+        ],
+        [
+          -25.118977,
+          154.361464
+        ],
+        [
+          -25.03277,
+          154.140364
+        ],
+        [
+          -24.981944,
+          154
+        ],
+        [
+          -23.221667,
+          153.241667
+        ],
+        [
+          -22.255833,
+          152.047222
+        ],
+        [
+          -21.653333,
+          151.868889
+        ],
+        [
+          -19.270278,
+          151.178889
+        ],
+        [
+          -18.674167,
+          151.009722
+        ],
+        [
+          -16.971389,
+          151.075278
+        ]
+      ]
+    ],
+    "country": "Australia",
+    "labelPosition": [
+      -21.856842,
+      157.87379
+    ]
+  },
+  {
+    "icao": "YHWE Oceanic",
+    "name": "Brisbane Oceanic-Lord Howe",
+    "prefix": [
+      "BN-HWE"
+    ],
+    "alias": [],
+    "oceanic": true,
+    "boundaries": [
+      [
+        [
+          -29.820278,
+          153.716111
+        ],
+        [
+          -29.760179,
+          153.958032
+        ],
+        [
+          -29.687499,
+          154.194733
+        ],
+        [
+          -29.596797,
+          154.422852
+        ],
+        [
+          -29.488812,
+          154.640566
+        ],
+        [
+          -29.364419,
+          154.84615
+        ],
+        [
+          -29.224623,
+          155.037995
+        ],
+        [
+          -29.070546,
+          155.214624
+        ],
+        [
+          -28.903423,
+          155.374698
+        ],
+        [
+          -28.724584,
+          155.51703
+        ],
+        [
+          -28.535443,
+          155.640591
+        ],
+        [
+          -28.337491,
+          155.744514
+        ],
+        [
+          -28.132276,
+          155.828101
+        ],
+        [
+          -27.921396,
+          155.890823
+        ],
+        [
+          -27.706479,
+          155.932319
+        ],
+        [
+          -27.489179,
+          155.952399
+        ],
+        [
+          -27.271154,
+          155.951037
+        ],
+        [
+          -27.054061,
+          155.928368
+        ],
+        [
+          -26.960556,
+          155.905278
+        ],
+        [
+          -26.816389,
+          163
+        ],
+        [
+          -33.266667,
+          163
+        ],
+        [
+          -33.908056,
+          155.188333
+        ],
+        [
+          -33.617928,
+          155.173953
+        ],
+        [
+          -33.331034,
+          155.118249
+        ],
+        [
+          -33.049223,
+          155.033336
+        ],
+        [
+          -32.774574,
+          154.920111
+        ],
+        [
+          -32.509094,
+          154.779657
+        ],
+        [
+          -32.25471,
+          154.61322
+        ],
+        [
+          -32.013251,
+          154.422203
+        ],
+        [
+          -31.78644,
+          154.20815
+        ],
+        [
+          -31.575887,
+          153.972733
+        ],
+        [
+          -31.383076,
+          153.71774
+        ],
+        [
+          -31.209357,
+          153.445064
+        ],
+        [
+          -31.130556,
+          153.308611
+        ],
+        [
+          -30.672222,
+          153.529444
+        ]
+      ]
+    ],
+    "country": "Australia",
+    "labelPosition": [
+      -30.116177,
+      158.714616
+    ]
+  },
+  {
+    "icao": "YIND Oceanic",
+    "name": "Melbourne Oceanic-Indian",
+    "prefix": [
+      "ML-IND"
+    ],
+    "alias": [],
+    "oceanic": true,
+    "boundaries": [
+      [
+        [
+          -2,
+          78
+        ],
+        [
+          -2,
+          92
+        ],
+        [
+          -9,
+          102.340556
+        ],
+        [
+          -12,
+          107
+        ],
+        [
+          -12,
+          114.5
+        ],
+        [
+          -14.136944,
+          115.142222
+        ],
+        [
+          -17.619722,
+          118.759444
+        ],
+        [
+          -18.799722,
+          115.562222
+        ],
+        [
+          -19.51,
+          113.523056
+        ],
+        [
+          -21.833333,
+          111.5
+        ],
+        [
+          -25.420278,
+          112.018611
+        ],
+        [
+          -27.5,
+          112.333611
+        ],
+        [
+          -31.263333,
+          112.940278
+        ],
+        [
+          -31.488011,
+          112.870876
+        ],
+        [
+          -31.718192,
+          112.831981
+        ],
+        [
+          -31.95038,
+          112.816656
+        ],
+        [
+          -32.182821,
+          112.825197
+        ],
+        [
+          -32.413743,
+          112.85772
+        ],
+        [
+          -32.641375,
+          112.914159
+        ],
+        [
+          -32.863957,
+          112.994261
+        ],
+        [
+          -33.079753,
+          113.097578
+        ],
+        [
+          -33.287069,
+          113.223469
+        ],
+        [
+          -33.484264,
+          113.371099
+        ],
+        [
+          -33.669764,
+          113.539439
+        ],
+        [
+          -33.842081,
+          113.727272
+        ],
+        [
+          -33.999821,
+          113.933196
+        ],
+        [
+          -34.141699,
+          114.155637
+        ],
+        [
+          -34.186944,
+          114.233056
+        ],
+        [
+          -36.416667,
+          116.666667
+        ],
+        [
+          -36.72,
+          120
+        ],
+        [
+          -37.177222,
+          125.081667
+        ],
+        [
+          -42.35,
+          141
+        ],
+        [
+          -43.73,
+          145.863333
+        ],
+        [
+          -43.520833,
+          149.358333
+        ],
+        [
+          -43.850833,
+          150.664722
+        ],
+        [
+          -44.565833,
+          150
+        ],
+        [
+          -45,
+          150
+        ],
+        [
+          -45,
+          163
+        ],
+        [
+          -90,
+          163
+        ],
+        [
+          -90,
+          120
+        ],
+        [
+          -90,
+          75
+        ],
+        [
+          -6,
+          75
+        ]
+      ]
+    ],
+    "country": "Australia",
+    "labelPosition": [
+      -23.902742,
+      93.067652
+    ]
+  },
+  {
+    "icao": "YINE Oceanic",
+    "name": "Melbourne Oceanic-Indian East",
+    "prefix": [
+      "ML-INE"
+    ],
+    "alias": [],
+    "oceanic": true,
+    "boundaries": [
+      [
+        [
+          -9,
+          102.340556
+        ],
+        [
+          -12,
+          107
+        ],
+        [
+          -12,
+          114.5
+        ],
+        [
+          -14.136944,
+          115.142222
+        ],
+        [
+          -17.619722,
+          118.759444
+        ],
+        [
+          -18.799722,
+          115.562222
+        ],
+        [
+          -19.51,
+          113.523056
+        ],
+        [
+          -21.833333,
+          111.5
+        ],
+        [
+          -25.420278,
+          112.018611
+        ],
+        [
+          -25,
+          110
+        ],
+        [
+          -17.266667,
+          105
+        ],
+        [
+          -10.983333,
+          102.966667
+        ]
+      ]
+    ],
+    "country": "Australia",
+    "labelPosition": [
+      -15.941451,
+      109.158525
+    ]
+  },
+  {
+    "icao": "YINS Oceanic",
+    "name": "Melbourne Oceanic-Indian South",
+    "prefix": [
+      "ML-INS"
+    ],
+    "alias": [],
+    "oceanic": true,
+    "boundaries": [
+      [
+        [
+          -37.177222,
+          125.081667
+        ],
+        [
+          -42.35,
+          141
+        ],
+        [
+          -43.73,
+          145.863333
+        ],
+        [
+          -43.520833,
+          149.358333
+        ],
+        [
+          -43.850833,
+          150.664722
+        ],
+        [
+          -44.565833,
+          150
+        ],
+        [
+          -45,
+          150
+        ],
+        [
+          -45,
+          163
+        ],
+        [
+          -90,
+          163
+        ],
+        [
+          -90,
+          120
+        ],
+        [
+          -36.72,
+          120
+        ]
+      ]
+    ],
+    "country": "Australia",
+    "labelPosition": [
+      -50.365426,
+      139.999596
+    ]
+  },
+  {
+    "icao": "YOCN Oceanic",
+    "name": "Brisbane (Ocean)",
+    "prefix": [
+      "BN-OCN"
+    ],
+    "alias": [],
+    "oceanic": true,
+    "boundaries": [
+      [
+        [
+          -31.130556,
+          153.308611
+        ],
+        [
+          -31.480202,
+          153.851564
+        ],
+        [
+          -31.90147,
+          154.321309
+        ],
+        [
+          -32.38439,
+          154.702209
+        ],
+        [
+          -32.915184,
+          154.981971
+        ],
+        [
+          -33.478478,
+          155.150671
+        ],
+        [
+          -34.057671,
+          155.201179
+        ],
+        [
+          -34.635367,
+          155.129576
+        ],
+        [
+          -35.193858,
+          154.935541
+        ],
+        [
+          -35.715661,
+          154.622674
+        ],
+        [
+          -36.184098,
+          154.198706
+        ],
+        [
+          -36.491111,
+          153.813056
+        ],
+        [
+          -36.226667,
+          152.423056
+        ],
+        [
+          -36.088064,
+          152.554076
+        ],
+        [
+          -35.939422,
+          152.666948
+        ],
+        [
+          -35.783308,
+          152.762993
+        ],
+        [
+          -35.620952,
+          152.841558
+        ],
+        [
+          -35.45362,
+          152.902139
+        ],
+        [
+          -35.316389,
+          152.930556
+        ],
+        [
+          -34.472778,
+          151.824722
+        ],
+        [
+          -34.424623,
+          151.878401
+        ],
+        [
+          -34.372478,
+          151.926293
+        ],
+        [
+          -34.317071,
+          151.968438
+        ],
+        [
+          -34.258832,
+          152.004523
+        ],
+        [
+          -34.198208,
+          152.034282
+        ],
+        [
+          -34.135665,
+          152.057502
+        ],
+        [
+          -34.071683,
+          152.074019
+        ],
+        [
+          -34.006751,
+          152.083721
+        ],
+        [
+          -33.941366,
+          152.086551
+        ],
+        [
+          -33.876026,
+          152.082502
+        ],
+        [
+          -33.811225,
+          152.071622
+        ],
+        [
+          -33.747457,
+          152.054008
+        ],
+        [
+          -33.685204,
+          152.029807
+        ],
+        [
+          -33.624934,
+          151.999217
+        ],
+        [
+          -33.567104,
+          151.962482
+        ],
+        [
+          -33.512146,
+          151.919888
+        ],
+        [
+          -33.501111,
+          151.909167
+        ],
+        [
+          -32.883611,
+          152.441944
+        ]
+      ]
+    ],
+    "country": "Australia",
+    "labelPosition": [
+      -33.734848,
+      153.415611
+    ]
   }
 ]

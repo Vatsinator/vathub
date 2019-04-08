@@ -66,7 +66,7 @@ function fetchData(fileName) {
       name: data[1],
       prefix: [ data[2] ].filter(p => p.length > 0),
       alias: [ data[3] ].filter(a => a !== data[0]),
-      boundaries: [],
+      oceanic: false,
     }));
 
   firs = {};
@@ -79,7 +79,10 @@ function fetchData(fileName) {
     }
   });
 
-  console.log(`Read ${Object.keys(firs).length} FIRs`);
+  firs = Object.values(firs);
+  console.log(`Read ${firs.length} FIRs`);
+  firs = [ ...firs, ...firs.map(fir => ({ ...fir, icao: fir.icao + ' Oceanic', oceanic: true })) ];
+  firs.forEach(f => f.boundaries = []);
 
   uirs = lines
     .slice(lines.findIndex(l => l === '[UIRs]') + 1, lines.findIndex(l => l === '[IDL]'))
@@ -108,7 +111,15 @@ function fetchFirs(fileName) {
     .filter(line => line.match(/^[A-Z\-]+\|\d\|\d\|\d+\|-?[\d\.]+\|-?[\d\.]+\|-?[\d\.]+\|-?[\d\.]+\|-?[\d\.]+\|-?[\d\.]+$/))
     .forEach(line => {
       const data = line.split('|');
-      const fir = firs[data[0]];
+      let icao = data[0];
+      console.log(`Parsing ${icao}`);
+      const isOceanic = !!parseInt(data[1]);
+
+      if (isOceanic) {
+        icao = `${icao} Oceanic`;
+      }
+
+      const fir = firs.find(f => f.icao === icao);
       if (!fir) {
         throw new Error(`No such fir: ${data[0]}`);
       }
@@ -129,9 +140,6 @@ function fetchFirs(fileName) {
         fir.labelPosition = [ latitude, longitude ];
       }
 
-      const isOceanic = !!parseInt(data[1]);
-      fir.oceanic = isOceanic;
-
       const count = parseInt(data[3]);
       const from = lines.indexOf(line) + 1;
       const boundaries = lines
@@ -142,7 +150,7 @@ function fetchFirs(fileName) {
       fir.boundaries.push(boundaries);
     });
 
-  fs.writeFileSync('firs.json', JSON.stringify(Object.values(firs), null, 2));
+  fs.writeFileSync('firs.json', JSON.stringify(firs.filter(fir => fir.boundaries.length > 0), null, 2));
 }
 
 fetchData(process.argv[2]);
