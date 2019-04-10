@@ -1,3 +1,4 @@
+import { Uir } from '.';
 import { LatLng } from '../../vatsim/models';
 
 export interface Fir {
@@ -9,4 +10,8 @@ export interface Fir {
   country?: string;
   labelPosition: LatLng;
   oceanic: boolean;
+}
+
+export function isFir(fir: Fir | Uir): fir is Fir {
+  return fir.hasOwnProperty('boundaries');
 }

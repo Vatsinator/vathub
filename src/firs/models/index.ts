@@ -1,1 +1,2 @@
-export { Fir } from './fir';
+export { Fir, isFir } from './fir';
+export { Uir } from './uir';

@@ -1,11 +1,12 @@
 import { airportTree, findAirportByCallsign } from '../airports';
-import { findFirByCallsign } from '../firs';
+import { findFirByCallsign, isFir } from '../firs';
 import logger from '../logger';
 import { Atc } from './models';
 
 interface Airspace {
   airport?: string;
   fir?: string;
+  uir?: string;
 }
 
 export function discoverAtcAirspace(atc: Atc): Airspace {
@@ -30,7 +31,7 @@ export function discoverAtcAirspace(atc: Atc): Airspace {
     case 'FSS':
       const fir = findFirByCallsign(atc.callsign);
       if (fir) {
-        return { fir: fir.icao };
+        return isFir(fir) ? { fir: fir.icao } : { uir: fir.icao };
       } else {
         logger.warn(`Unrecognized ATC: ${atc.callsign}`);
       }
