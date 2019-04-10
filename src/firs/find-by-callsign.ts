@@ -1,7 +1,8 @@
 import { firList } from './fir-list';
-import { Fir } from './models';
+import { Fir, Uir } from './models';
+import { uirList } from './uir-list';
 
-export function findByCallsign(callsign: string): Fir {
+export function findByCallsign(callsign: string): Fir | Uir {
   const data = callsign.split('_');
   const prefix = data[0];
   const facility = data[data.length - 1];
@@ -26,5 +27,9 @@ export function findByCallsign(callsign: string): Fir {
     fir.oceanic === isOceanic && (
       !!fir.alias.find(a => a === prefix) ||
       !!fir.prefix.find(p => p === prefix)
-    ));
+    ))
+    || firList.find(fir => fir.icao === prefix ||
+      !!fir.alias.find(a => a === prefix) ||
+      !!fir.prefix.find(p => p === prefix))
+    || uirList.find(uir => uir.icao === prefix);
 }
