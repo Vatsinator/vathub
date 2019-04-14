@@ -25,10 +25,10 @@ class VatsimTracker {
     });
   }
 
-  private fetchData() {
+  private async fetchData() {
     const url = this.status.dataUrls[Math.floor(Math.random() * this.status.dataUrls.length)];
     logger.info(`Downloading ${url}...`);
-    request(url, (error, response, body) => {
+    request(url, async (error, response, body) => {
       if (error) {
         logger.error(`could not download vatsim data file (${url}); error code = ${response.statusCode}`);
         setTimeout(() => this.fetchData(), 5000); // try again in 5 seconds
@@ -36,7 +36,7 @@ class VatsimTracker {
       }
 
       const start = new Date().getTime();
-      this.data = parseVatsimData(body);
+      this.data = await parseVatsimData(body);
       const end = new Date().getTime() - start;
       logger.info('Parsing VATSIM data took %dms', end);
 

@@ -13,6 +13,7 @@
   "author": "garrappachc@gmail.com",
   "license": "GPL-3.0-or-later",
   "dependencies": {
+    "async": "^2.6.2",
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "forever": "^1.0.0",
@@ -20,9 +21,11 @@
     "kd-tree-javascript": "^1.0.3",
     "moment": "^2.24.0",
     "request": "^2.88.0",
+    "request-promise": "^4.2.4",
     "winston": "^3.2.1"
   },
   "devDependencies": {
+    "@types/async": "^2.4.1",
     "@types/chai": "^4.1.7",
     "@types/chai-arrays": "^1.0.2",
     "@types/chai-datetime": "0.0.32",
@@ -31,6 +34,7 @@
     "@types/mocha": "^5.2.6",
     "@types/node": "^11.13.4",
     "@types/request": "^2.48.1",
+    "@types/request-promise": "^4.1.42",
     "chai": "^4.2.0",
     "chai-arrays": "^2.0.0",
     "chai-datetime": "^1.5.0",
