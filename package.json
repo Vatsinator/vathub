@@ -1,6 +1,6 @@
 {
   "name": "vathub",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "All VATSIM data in one place",
   "main": "dist/index.js",
   "scripts": {
