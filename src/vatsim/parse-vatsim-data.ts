@@ -1,3 +1,4 @@
+import async from 'async';
 import moment from 'moment';
 import { airportList, airportTree, findAirportByIcao } from '../airports';
 import { discoverAtcAirspace } from './discover-atc-airspace';
@@ -5,6 +6,7 @@ import { discoverFlightPhase } from './discover-flight-phase';
 import { Atc, isAtc, isPilot, Pilot, VatsimData } from './models';
 import parseClient from './parse-client';
 import { PilotIsInAirportRange } from './pilot-is-in-airport-range';
+import { resolveAtcCallsign } from './resolve-atc-callsign';
 
 /** For pilots that have not filled a flight plan yet, try to find out where they are */
 function findDepartureAirport(pilot: Pilot): void {
@@ -18,7 +20,7 @@ function findDepartureAirport(pilot: Pilot): void {
   }
 }
 
-export default function parseVatsimData(data: string): VatsimData {
+export default async function parseVatsimData(data: string): Promise<VatsimData> {
   const lines =
     data
       .split(/\r?\n/)
@@ -57,6 +59,14 @@ export default function parseVatsimData(data: string): VatsimData {
       const airspace = discoverAtcAirspace(atc);
       Object.assign(atc, airspace);
     });
+
+  async.eachSeries(clients.filter(client => isAtc(client)), async (atc: Atc, cb) => {
+    const callsign = await resolveAtcCallsign(atc);
+    if (callsign) {
+      atc.resolvedCallsign = callsign;
+    }
+    return cb();
+  });
 
   const activeAirports = [ ...new Set(clients // remove duplicates
     .reduce((acc, client) => {

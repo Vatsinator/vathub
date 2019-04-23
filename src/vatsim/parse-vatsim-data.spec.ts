@@ -17,10 +17,10 @@ before(() => {
 describe('parseVatsimData()', () => {
   let vatsimData: VatsimData;
 
-  beforeEach(() => {
+  beforeEach(async () => {
     const filePath = path.join(__dirname, 'vatsim-data.txt');
     const data = fs.readFileSync(filePath);
-    vatsimData = parseVatsimData(data.toString());
+    vatsimData = await parseVatsimData(data.toString());
   });
 
   it('returns non-null object', () => {
