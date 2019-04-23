@@ -1,4 +1,4 @@
-import request from 'request';
+import rp from 'request-promise';
 import logger from '../logger';
 import { VatsimData, VatsimStatus } from './models';
 import parseVatsimData from './parse-vatsim-data';
@@ -12,36 +12,33 @@ class VatsimTracker {
     this.fetchStatus();
   }
 
-  private fetchStatus() {
-    request('https://status.vatsim.net/', (error, response, body) => {
-      if (error) {
-        logger.error(`could not download vatsim status file; error code = ${response.statusCode}`);
-        setTimeout(() => this.fetchStatus(), 5000); // try again in 5 seconds
-        return;
-      }
-
+  private async fetchStatus() {
+    try {
+      const body = await rp('https://status.vatsim.net');
       this.status = parseVatsimStatus(body);
+      logger.debug('VATSIM status downloaded');
       this.fetchData();
-    });
+    } catch (error) {
+      logger.error(`could not download VATSIM status file; message: ${error.message}`);
+      setTimeout(() => this.fetchStatus(), 5000); // try again in 5 seconds
+    }
   }
 
   private async fetchData() {
     const url = this.status.dataUrls[Math.floor(Math.random() * this.status.dataUrls.length)];
-    logger.info(`Downloading ${url}...`);
-    request(url, async (error, response, body) => {
-      if (error) {
-        logger.error(`could not download vatsim data file (${url}); error code = ${response.statusCode}`);
-        setTimeout(() => this.fetchData(), 5000); // try again in 5 seconds
-        return;
-      }
-
+    logger.debug(`Downloading ${url}`);
+    try {
+      const body = await rp(url);
       const start = new Date().getTime();
       this.data = await parseVatsimData(body);
       const end = new Date().getTime() - start;
-      logger.info('Parsing VATSIM data took %dms', end);
+      logger.debug('Parsing VATSIM data took %dms', end);
 
-      setTimeout(() => this.fetchData(), this.data.general.reload * 60 * 1000);
-    });
+      setTimeout(() => this.fetchData(), 60 * 1000); // refresh data every 1 minute
+    } catch (error) {
+      logger.error(`could not download VATSIM data file; message: ${error.message}`);
+      setTimeout(() => this.fetchData(), 5000); // try again in 5 seconds
+    }
   }
 }
 
