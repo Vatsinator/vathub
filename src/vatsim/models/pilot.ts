@@ -8,6 +8,10 @@ export interface Pilot extends Client {
   from: string;
   to: string;
   groundSpeed: number;
+  transponder: number;
+  altitude: number;
+  route: string;
+  remarks: string;
   flightPhase?: FlightPhase;
 }
 

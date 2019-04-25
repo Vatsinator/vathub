@@ -8,4 +8,5 @@ export interface Client {
   name: string;
   type: ClientType;
   position: LatLng;
+  onlineFrom: Date;
 }

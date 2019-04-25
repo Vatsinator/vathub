@@ -1,6 +1,6 @@
 import async from 'async';
 import moment from 'moment';
-import { airportList, airportTree, findAirportByIcao } from '../airports';
+import { airportTree, findAirportByIcao } from '../airports';
 import { discoverAtcAirspace } from './discover-atc-airspace';
 import { discoverFlightPhase } from './discover-flight-phase';
 import { Atc, isAtc, isPilot, Pilot, VatsimData } from './models';

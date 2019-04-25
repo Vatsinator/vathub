@@ -1,3 +1,4 @@
+import moment from 'moment';
 import logger from '../logger';
 import { Atc, LatLng, Pilot } from './models';
 
@@ -28,6 +29,7 @@ function client(data: string[]) {
     cid: parseInt(data[DataIndex.Pid], 10),
     name: data[DataIndex.RealName],
     position: [ latitude, longitude ] as LatLng,
+    onlineFrom: moment(data[DataIndex.TimeLogon], 'YYYYMMDDHHmmss').toDate(),
   };
 }
 
@@ -70,6 +72,10 @@ export default function parseClient(clientLine: string): Pilot | Atc {
       from: data[DataIndex.PlannedDepAirport],
       to: data[DataIndex.PlannedDestairport],
       groundSpeed: parseInt(data[DataIndex.Groundspeed], 10),
+      transponder: parseInt(data[DataIndex.Transponder], 10),
+      altitude: parseInt(data[DataIndex.Altitude], 10),
+      route: data[DataIndex.PlannedRoute],
+      remarks: data[DataIndex.PlannedRemarks],
     };
 
     default:
