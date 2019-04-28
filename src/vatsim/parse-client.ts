@@ -72,7 +72,7 @@ export default function parseClient(clientLine: string): Pilot | Atc {
       from: data[DataIndex.PlannedDepAirport],
       to: data[DataIndex.PlannedDestairport],
       groundSpeed: parseInt(data[DataIndex.Groundspeed], 10),
-      transponder: parseInt(data[DataIndex.Transponder], 10),
+      transponder: data[DataIndex.Transponder],
       altitude: parseInt(data[DataIndex.Altitude], 10),
       route: data[DataIndex.PlannedRoute],
       remarks: data[DataIndex.PlannedRemarks],
