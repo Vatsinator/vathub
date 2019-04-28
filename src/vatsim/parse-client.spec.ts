@@ -2,6 +2,8 @@ import { expect } from 'chai';
 import { Atc, isAtc, isPilot, Pilot } from './models';
 import parseClient from './parse-client';
 
+// tslint:disable:no-unused-expression
+
 describe('parseClient()', () => {
   describe('atc', () => {
     let atc: Atc;
@@ -14,7 +16,6 @@ describe('parseClient()', () => {
 
     it('is recognized', () => {
       expect(atc.type).to.equal('atc');
-      // tslint:disable-next-line:no-unused-expression
       expect(isAtc(atc)).to.be.true;
     });
 
@@ -40,7 +41,6 @@ describe('parseClient()', () => {
 
     it('is recognized', () => {
       expect(pilot.type).to.equal('pilot');
-      // tslint:disable-next-line:no-unused-expression
       expect(isPilot(pilot)).to.be.true;
     });
 
@@ -54,6 +54,12 @@ describe('parseClient()', () => {
       expect(pilot.from).to.equal('ULPB');
       expect(pilot.to).to.equal('UUYY');
       expect(pilot.groundSpeed).to.equal(169);
+      expect(pilot.aircraft).to.equal('SF34/G');
+      expect(pilot.transponder).to.equal('7000');
+      expect(pilot.altitude).to.equal(8650);
+      // tslint:disable-next-line:max-line-length
+      expect(pilot.route).to.equal('N0150A090 SELGA DCT KEGUP B158 GARSI A720 DIBLU G908 OTLAS R959 ESAPA R492 ADISA R22 ADKOL');
+      expect(pilot.remarks).to.equal('+VFPS+/T/RMK/CALLSIGN AIREST CARGO REG/ESLSC OPR/WWW.BALTIC-VA.ORG');
     });
   });
 
