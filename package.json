@@ -25,7 +25,7 @@
     "winston": "^3.2.1"
   },
   "devDependencies": {
-    "@types/async": "^3.0.0",
+    "@types/async": "^3.0.3",
     "@types/chai": "^4.1.7",
     "@types/chai-arrays": "^1.0.2",
     "@types/chai-datetime": "0.0.33",
