@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@types/async": "^3.0.0",
-    "@types/chai": "^4.1.7",
+    "@types/chai": "^4.2.4",
     "@types/chai-arrays": "^1.0.2",
     "@types/chai-datetime": "0.0.33",
     "@types/cors": "^2.8.4",
